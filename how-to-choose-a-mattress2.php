@@ -387,7 +387,7 @@ div.panel {
 				for (var index = 0; index < mattress.score.length; index++) {
 					totalscore += mattress.score[index];
 				}
-				var width = 30 * totalscore;
+				var width = 50 * totalscore;
 				var output = "<div class='mattressscorebar' style='width: " + width + "px;'></div>";
 				var elementid = mattress.type + "score";
 				document.getElementById(elementid).innerHTML = output;
