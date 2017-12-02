@@ -108,17 +108,17 @@ div.panel {
 				<div class="mattressscoretick">5</div>
 				<div class="mattressscoretick">6</div>
 				<div class="mattressscoretick">7</div>
-				<div class="mattressscoretick">8</div>
-				<div class="mattressscoretick">9</div>
-				<div class="mattressscoretick">10</div>
 			</div>
 			<div style="clear: both;"></div>
-			<div class="mattresstype">Firm</div><div id="firmscore" class="mattressscore"></div><div style="clear: both;"></div>
-			<div class="mattresstype">Firm + Memory Foam</div><div id="firmfoamscore" class="mattressscore"></div><div style="clear: both;"></div>
-			<div class="mattresstype">Plush</div><div id="plushscore" class="mattressscore"></div><div style="clear: both;"></div>
-			<div class="mattresstype">Plush + Memory Foam</div><div id="plushfoamscore" class="mattressscore"></div><div style="clear: both;"></div>
-			<div class="mattresstype">Soft</div><div id="softscore" class="mattressscore"></div><div style="clear: both;"></div>
-			<div class="mattresstype">Soft + Memory Foam</div><div id="softfoamscore" class="mattressscore"></div><div style="clear: both;"></div>
+			<div class="mattresstype">Extra Soft</div><div id="firmscore" class="mattressscore"></div><div style="clear: both;"></div>
+			<div class="mattresstype">Soft</div><div id="firmfoamscore" class="mattressscore"></div><div style="clear: both;"></div>
+			<div class="mattresstype">Medium Soft</div><div id="plushscore" class="mattressscore"></div><div style="clear: both;"></div>
+			<div class="mattresstype">Medium</div><div id="plushfoamscore" class="mattressscore"></div><div style="clear: both;"></div>
+			<div class="mattresstype">Medium Firm</div><div id="softscore" class="mattressscore"></div><div style="clear: both;"></div>
+			<div class="mattresstype">Firm</div><div id="softfoamscore" class="mattressscore"></div><div style="clear: both;"></div>
+			<div class="mattresstype">Extra Firm</div><div id="plushfoamscore" class="mattressscore"></div><div style="clear: both;"></div>
+			<div class="mattresstype">Add Memory Foam</div><div id="softscore" class="mattressscore"></div><div style="clear: both;"></div>
+			<div class="mattresstype">Add Memory Foam With Gel</div><div id="softfoamscore" class="mattressscore"></div><div style="clear: both;"></div>
 			
 	</div>
             
@@ -139,14 +139,13 @@ div.panel {
                                 <p>Because the position of your body will tell how deep your dreams are.<br><a href="http://www.mattresszombie.com/MattressArticles/Sleep-facts.php" target="_blank">Read Article</a></p>        
                             </div>
                             <div class="mattress-question-choices">
-                                <label><img src="/images/sleep_positions_back_web.jpg" alt="back sleep position"><br/><br/><input type="radio" name="question1" class="option" onchange="scoreMattress(0, 'firm');" />On my Back</label>
-                                <label><img src="/images/sleep_positions_side_web.jpg" alt="on the side sleep position"><br/><br/><input type="radio" name="question1" class="option" onchange="scoreMattress(0, 'firmfoam');" />On my side</label>
-                                <label><img src="/images/sleep_positions_stomach_web.jpg" alt="on stomach sleep position"><br/><br/><input type="radio" name="question1" class="option" onchange="scoreMattress(0, 'plush,plushfoam');" />On my stomach</label>
-                                <label><img src="/images/sleep_positions_more_than_one_web.jpg" alt="more than one sleep position"><br/><br/><input type="radio" name="question1" class="option" onchange="scoreMattress(0, 'soft');" />More than One position</label>
+                                <label><img src="/images/sleep_positions_back_web.jpg" alt="back sleep position"><br/><br/><input type="radio" name="question1" class="option" onchange="scoreMattress(0, 'mediumfirm');" />On my Back</label>
+                                <label><img src="/images/sleep_positions_side_web.jpg" alt="on the side sleep position"><br/><br/><input type="radio" name="question1" class="option" onchange="scoreMattress(0, 'soft, memoryfoam');" />On my side</label>
+                                <label><img src="/images/sleep_positions_stomach_web.jpg" alt="on stomach sleep position"><br/><br/><input type="radio" name="question1" class="option" onchange="scoreMattress(0, 'firm');" />On my stomach</label>
+                                <label><img src="/images/sleep_positions_more_than_one_web.jpg" alt="more than one sleep position"><br/><br/><input type="radio" name="question1" class="option" onchange="scoreMattress(0, 'medium');" />More than One position</label>
                             </div>
                                  <br/>
                             <div class="prevnextbutton">
-                                <button class="quest-button"><a href="#">&laquo; Previous Question</a></button>
                                 <button class="quest-button"><a href="#question2">Next Question &raquo;</a></button> 
                             </div>
                         </div>
@@ -163,10 +162,10 @@ div.panel {
                                     <p>Pain is one of the main reasons why you have a poor sleep. Choosing the right mattress, could solve most of the problem.<br><a href="https://www.mattresszombie.com/MattressArticle/Sleep-facts.php" target="_blank">Read Article</a></p>        
                                 </div>
                                 <div class="mattress-question-choices">
-                                    <label><img src="/images/sleep_pain_back_web.png" alt="back pain"><br/><br/><input type="radio" name="question2" class="option" onchange="scoreMattress(1, 'soft,firm');" />Back Pain</label>
-                                    <label><img src="/images/sleep_pain_joints_web.png" alt="joints pain"><br/><br/><input type="radio" name="question2" class="option" onchange="scoreMattress(1, 'plush,plushfoam');" />Joint(s) Pain</label>
-                                    <label><img src="/images/sleep_pain_nerve_web.png" alt="nerve pain"><br/><br/><input type="radio" name="question2" class="option" onchange="scoreMattress(1, 'firmfoam');" />Nerve Pain</label>
-                                    <label><img src="/images/sleep_pain_no_pain_web.png" alt="no pain"><br/><br/><input type="radio" name="question2" class="option" onchange="scoreMattress(1, 'firm,softfoam');" />No Pain at All</label>
+                                    <label><img src="/images/sleep_pain_back_web.png" alt="back pain"><br/><br/><input type="radio" name="question2" class="option" onchange="scoreMattress(1, 'mediumfirm');" />Back Pain</label>
+                                    <label><img src="/images/sleep_pain_joints_web.png" alt="joints pain"><br/><br/><input type="radio" name="question2" class="option" onchange="scoreMattress(1, 'soft, memoryfoamgel, memoryfoam');" />Joint(s) Pain</label>
+                                    <label><img src="/images/sleep_pain_nerve_web.png" alt="nerve pain"><br/><br/><input type="radio" name="question2" class="option" onchange="scoreMattress(1, 'extrasoft, memoryfoamgel');" />Nerve Pain</label>
+                                    <label><img src="/images/sleep_pain_no_pain_web.png" alt="no pain"><br/><br/><input type="radio" name="question2" class="option" onchange="scoreMattress(1, 'medium, mediumfirm, memoryfoam');" />No Pain at All</label>
                                 </div>
                                 <br/>
                             <div class="prevnextbutton">
@@ -187,15 +186,15 @@ div.panel {
                                     <p>As we age, muscle mass decreases & bones become brittle. Your mattress should be a support for your body.<br><a href="https://www.mattresszombie.com/MattressArticle/Sleep-facts.php" target="_blank">Read Article</a></p>        
                                 </div>
                                 <div class="mattress-question-choices">
-                                    <label><img src="/images/sleep_pain_back_web.png" alt="back pain"><br/><br/><input type="radio" name="question3" class="option" onchange="scoreMattress(1, 'soft,firm');" />Under 30 yr. old?</label>
-                                    <label><img src="/images/sleep_pain_joints_web.png" alt="joints pain"><br/><br/><input type="radio" name="question3" class="option" onchange="scoreMattress(1, 'plush,plushfoam');" />31-50 yr. old?</label>
-                                    <label><img src="/images/sleep_pain_nerve_web.png" alt="nerve pain"><br/><br/><input type="radio" name="question3" class="option" onchange="scoreMattress(1, 'firmfoam');" />51-70 yr. old?</label>
-                                    <label><img src="/images/sleep_pain_no_pain_web.png" alt="no pain"><br/><br/><input type="radio" name="question3" class="option" onchange="scoreMattress(1, 'firm,softfoam');" />71 yr. old or more?</label>
+                                    <label><img src="/images/sleep_pain_back_web.png" alt="back pain"><br/><br/><input type="radio" name="question3" class="option" onchange="scoreMattress(2, 'medium, mediumfirm, memoryfoam');" />Under 30 yr. old?</label>
+                                    <label><img src="/images/sleep_pain_joints_web.png" alt="joints pain"><br/><br/><input type="radio" name="question3" class="option" onchange="scoreMattress(2, 'medium, mediumfirm, memoryfoam');" />31-50 yr. old?</label>
+                                    <label><img src="/images/sleep_pain_nerve_web.png" alt="nerve pain"><br/><br/><input type="radio" name="question3" class="option" onchange="scoreMattress(2, 'mediumsoft, memoryfoamgel');" />51-70 yr. old?</label>
+                                    <label><img src="/images/sleep_pain_no_pain_web.png" alt="no pain"><br/><br/><input type="radio" name="question3" class="option" onchange="scoreMattress(2, 'soft, memoryfoamgel');" />71 yr. old or more?</label>
                                 </div>
                                 <br/>
                             <div class="prevnextbutton">
-                                <button class="quest-button"><a href="#question1">&laquo; Previous Question</a></button>
-                                <button class="quest-button"><a href="#question3">Next Question &raquo;</a></button> 
+                                <button class="quest-button"><a href="#question2">&laquo; Previous Question</a></button>
+                                <button class="quest-button"><a href="#question4">Next Question &raquo;</a></button> 
                             </div>
                         </div>
                     </div>
@@ -211,15 +210,15 @@ div.panel {
                                     <p>If our body temperature is not comfortable, our REM stage is disrupted and we will feel tired.<br><a href="https://www.mattresszombie.com/MattressArticle/Sleep-facts.php" target="_blank">Read Article</a></p>        
                                 </div>
                                 <div class="mattress-question-choices">
-                                    <label><img src="/images/sleep_pain_back_web.png" alt="back pain"><br/><br/><input type="radio" name="question4" class="option" onchange="scoreMattress(1, 'soft,firm');" />Hot?</label>
-                                    <label><img src="/images/sleep_pain_joints_web.png" alt="joints pain"><br/><br/><input type="radio" name="question4" class="option" onchange="scoreMattress(1, 'plush,plushfoam');" />Cold?</label>
-                                    <label><img src="/images/sleep_pain_nerve_web.png" alt="nerve pain"><br/><br/><input type="radio" name="question4" class="option" onchange="scoreMattress(1, 'firmfoam');" />Normal?</label>
-                                    <label><img src="/images/sleep_pain_no_pain_web.png" alt="no pain"><br/><br/><input type="radio" name="question4" class="option" onchange="scoreMattress(1, 'firm,softfoam');" />Fluctuate?</label>
+                                    <label><img src="/images/sleep_pain_back_web.png" alt="back pain"><br/><br/><input type="radio" name="question4" class="option" onchange="scoreMattress(3, 'memoryfoamgel, medium, mediumfirm, firm');" />Hot?</label>
+                                    <label><img src="/images/sleep_pain_joints_web.png" alt="joints pain"><br/><br/><input type="radio" name="question4" class="option" onchange="scoreMattress(3, 'soft, mediumsoft, medium, mediumfirm, memoryfoam');" />Cold?</label>
+                                    <label><img src="/images/sleep_pain_nerve_web.png" alt="nerve pain"><br/><br/><input type="radio" name="question4" class="option" onchange="scoreMattress(3, 'soft, mediumsoft, medium, mediumfirm, firm, memoryfoam');" />Normal?</label>
+                                    <label><img src="/images/sleep_pain_no_pain_web.png" alt="no pain"><br/><br/><input type="radio" name="question4" class="option" onchange="scoreMattress(3, 'memoryfoamgel,mediumsoft, medium, mediumfirm, firm');" />Fluctuate?</label>
                                 </div>
                                 <br/>
                             <div class="prevnextbutton">
-                                <button class="quest-button"><a href="#question1">&laquo; Previous Question</a></button>
-                                <button class="quest-button"><a href="#question3">Next Question &raquo;</a></button> 
+                                <button class="quest-button"><a href="#question3">&laquo; Previous Question</a></button>
+                                <button class="quest-button"><a href="#question5">Next Question &raquo;</a></button> 
                             </div>
                         </div>
                     </div>
@@ -235,15 +234,15 @@ div.panel {
                                     <p>Our body's weight will determine the type of mattress will support us best.<br><a href="https://www.mattresszombie.com/MattressArticle/Sleep-facts.php" target="_blank">Read Article</a></p>        
                                 </div>
                                 <div class="mattress-question-choices">
-                                    <label><img src="/images/sleep_pain_back_web.png" alt="back pain"><br/><br/><input type="radio" name="question5" class="option" onchange="scoreMattress(1, 'soft,firm');" />Under 100 lb.?</label>
-                                    <label><img src="/images/sleep_pain_joints_web.png" alt="joints pain"><br/><br/><input type="radio" name="question5" class="option" onchange="scoreMattress(1, 'plush,plushfoam');" />Between 100 and 200 lb?</label>
-                                    <label><img src="/images/sleep_pain_nerve_web.png" alt="nerve pain"><br/><br/><input type="radio" name="question5" class="option" onchange="scoreMattress(1, 'firmfoam');" />Between 200 and 300 lb?</label>
-                                    <label><img src="/images/sleep_pain_no_pain_web.png" alt="no pain"><br/><br/><input type="radio" name="question5" class="option" onchange="scoreMattress(1, 'firm,softfoam');" />More than 300 lb?</label>
+                                    <label><img src="/images/100_Web.png" alt="less than 100 pounds"><br/><br/><input type="radio" name="question5" class="option" onchange="scoreMattress(4, 'soft,extrasoft,mediumsoft');" />Under 100 lb.?</label>
+                                    <label><img src="/images/200_web.png" alt="200 pounds"><br/><br/><input type="radio" name="question5" class="option" onchange="scoreMattress(4, 'mediumsoft, medium');" />Between 100 and 200 lb?</label>
+                                    <label><img src="/images/300_web.png" alt="300 pounds"><br/><br/><input type="radio" name="question5" class="option" onchange="scoreMattress(4, 'mediumfirm, firm');" />Between 200 and 300 lb?</label>
+                                    <label><img src="/images/300+_web.png" alt="more than 300 pounds"><br/><br/><input type="radio" name="question5" class="option" onchange="scoreMattress(4, 'extrafirm');" />More than 300 lb?</label>
                                 </div>
                                 <br/>
                             <div class="prevnextbutton">
-                                <button class="quest-button"><a href="#question1">&laquo; Previous Question</a></button>
-                                <button class="quest-button"><a href="#question3">Next Question &raquo;</a></button> 
+                                <button class="quest-button"><a href="#question4">&laquo; Previous Question</a></button>
+                                <button class="quest-button"><a href="#question6">Next Question &raquo;</a></button> 
                             </div>
                         </div>
                     </div>
@@ -259,108 +258,49 @@ div.panel {
                                     <p>Our body's weight will determine the type of mattress will support us best.<br><a href="https://www.mattresszombie.com/MattressArticle/Sleep-facts.php" target="_blank">Read Article</a></p>        
                                 </div>
                                 <div class="mattress-question-choices">
-                                    <label><img src="/images/sleep_pain_back_web.png" alt="back pain"><br/><br/><input type="radio" name="question6" class="option" onchange="scoreMattress(1, 'soft,firm');" />1</label>
-                                    <label><img src="/images/sleep_pain_joints_web.png" alt="joints pain"><br/><br/><input type="radio" name="question6" class="option" onchange="scoreMattress(1, 'plush,plushfoam');" />2</label>
-                                    <label><img src="/images/sleep_pain_nerve_web.png" alt="nerve pain"><br/><br/><input type="radio" name="question6" class="option" onchange="scoreMattress(1, 'firmfoam');" />3</label>
-                                    <label><img src="/images/sleep_pain_no_pain_web.png" alt="no pain"><br/><br/><input type="radio" name="question6" class="option" onchange="scoreMattress(1, 'firm,softfoam');" />4</label>
+                                    <label><img src="/images/sleep_pain_back_web.png" alt="back pain"><br/><br/><input type="radio" name="question6" class="option" onchange="scoreMattress(5, 'extrasoft');" />1</label>
+                                    <label><img src="/images/sleep_pain_joints_web.png" alt="joints pain"><br/><br/><input type="radio" name="question6" class="option" onchange="scoreMattress(5, 'soft');" />2</label>
+                                    <label><img src="/images/sleep_pain_nerve_web.png" alt="nerve pain"><br/><br/><input type="radio" name="question6" class="option" onchange="scoreMattress(5, 'mediumsoft');" />3</label>
+                                    <label><img src="/images/sleep_pain_no_pain_web.png" alt="no pain"><br/><br/><input type="radio" name="question6" class="option" onchange="scoreMattress(5, 'medium');" />4</label>
                                 </div>
                                 <div class="mattress-question-choices">
-                                    <label><img src="/images/sleep_pain_back_web.png" alt="back pain"><br/><br/><input type="radio" name="question6" class="option" onchange="scoreMattress(1, 'soft,firm');" />5</label>
-                                    <label><img src="/images/sleep_pain_joints_web.png" alt="joints pain"><br/><br/><input type="radio" name="question6" class="option" onchange="scoreMattress(1, 'plush,plushfoam');" />6</label>
-                                    <label><img src="/images/sleep_pain_nerve_web.png" alt="nerve pain"><br/><br/><input type="radio" name="question6" class="option" onchange="scoreMattress(1, 'firmfoam');" />7</label>
-                                    <label><img src="/images/sleep_pain_no_pain_web.png" alt="no pain"><br/><br/><input type="radio" name="question6" class="option" onchange="scoreMattress(1, 'firm,softfoam');" />8</label>
+                                    <label><img src="/images/sleep_pain_back_web.png" alt="back pain"><br/><br/><input type="radio" name="question6" class="option" onchange="scoreMattress(5, 'mediumfirm');" />5</label>
+                                    <label><img src="/images/sleep_pain_joints_web.png" alt="joints pain"><br/><br/><input type="radio" name="question6" class="option" onchange="scoreMattress(5, 'firm');" />6</label>
+                                    <label><img src="/images/sleep_pain_nerve_web.png" alt="nerve pain"><br/><br/><input type="radio" name="question6" class="option" onchange="scoreMattress(5, 'extrafirm');" />7</label>
+                                    <label><img src="/images/sleep_pain_no_pain_web.png" alt="no pain"><br/><br/><input type="radio" name="question6" class="option" onchange="scoreMattress(5, 'memoryfoam');" />8</label>
                                 </div>
                                 <br/>
                             <div class="prevnextbutton">
-                                <button class="quest-button"><a href="#question1">&laquo; Previous Question</a></button>
-                                <button class="quest-button"><a href="#question3">Next Question &raquo;</a></button> 
+                                <button class="quest-button"><a href="#question5">&laquo; Previous Question</a></button>
+                                <button class="quest-button"><a href="#question7">Next Question &raquo;</a></button> 
+                            </div>
+                        </div>
+                    </div>
+                
+                    <button class="accordion"><span id="question5"></span>QUESTION #7</button>
+                    <div class="panel">
+                        <div class="mattress-question-body">
+                                <div class="mattress-question-text">
+                                    <p>&#8594; Do you have a sleeping partner?</p>
+                                </div>
+                                <div class="mattress-question-why">
+                                    <h4><b>Why we ask this?</b></h4>
+                                    <p>Having a sleeping partner could determine a different choice. If your partner has a totally different mattress preference you should consider two mattress with an adjustable base for each.<br><a href="https://www.mattresszombie.com/MattressArticle/Sleep-facts.php" target="_blank">Read Article</a></p>        
+                                </div>
+                                <div class="mattress-question-choices">
+                                    <label><img src="/images/sleep_pain_back_web.png" alt="back pain"><br/><br/><input type="radio" name="question5" class="option" onchange="scoreMattress(6, 'mediumsoft, medium, mediumfirm, firm');" />Yes</label>
+                                    <label><img src="/images/sleep_pain_joints_web.png" alt="joints pain"><br/><br/><input type="radio" name="question5" class="option" onchange="scoreMattress(6, 'mediumsoft, medium, mediumfirm, firm, memoryfoam, memoryfoamgel');" />Sometimes</label>
+                                    <label><img src="/images/sleep_pain_nerve_web.png" alt="nerve pain"><br/><br/><input type="radio" name="question5" class="option" onchange="scoreMattress(6, 'mediumsoft, medium, mediumfirm, firm, memoryfoam, memoryfoamgel');" />Occasionally</label>
+                                    <label><img src="/images/sleep_pain_no_pain_web.png" alt="no pain"><br/><br/><input type="radio" name="question5" class="option" onchange="scoreMattress(6, 'mediumsoft, medium, mediumfirm, firm, extrafirm, memoryfoam, memoryfoamgel');" />Never</label>
+                                </div>
+                                <br/>
+                            <div class="prevnextbutton">
+                                <button class="quest-button"><a href="#question6">&laquo; Previous Question</a></button>
                             </div>
                         </div>
                     </div>
                 
                 
-                
-                
-                <!--QUESTIONS
-                
-                <section id="questions">
-		
-			<div class="mattressquestion">
-                            	
-                                <button class="mattress-question-title"><span id="question1"></span>QUESTION #1</button>
-                            
-                            <div class="mattress-question-body">
-                                <div class="mattress-question-text">
-                                    <p>&#8594; What is your preferred sleep position?</p>
-                                </div>
-                                <div class="mattress-question-why">
-                                    <h4><b>Why we ask this?</b></h4>
-                                    <p>Because the position of your body will tell how deep your dreams are.<br><a href="http://www.mattresszombie.com/MattressArticles/Sleep-facts.php" target="_blank">Read Article</a></p>        
-                                </div>
-                                <div class="mattress-question-choices">
-                                <label><img src="/images/sleep_positions_back_web.jpg"><br/><br/><input type="radio" name="question1" class="option" onchange="scoreMattress(0, 'firm');" />On my Back</label>
-                                <label><img src="/images/sleep_positions_side_web.jpg"><br/><br/><input type="radio" name="question1" class="option" onchange="scoreMattress(0, 'firmfoam');" />On my side</label>
-                                <label><img src="/images/sleep_positions_stomach_web.jpg"><br/><br/><input type="radio" name="question1" class="option" onchange="scoreMattress(0, 'plush,plushfoam');"" />On my stomach</label>
-                                <label><img src="/images/sleep_positions_more_than_one_web.jpg"><br/><br/><input type="radio" name="question1" class="option" onchange="scoreMattress(0, 'soft');" />More than One position</label>
-                                </div>
-                                 <br/>
-                                <div class="prevnextbutton">
-                                <button class="quest-button"><a href="#">&laquo; Previous Question</a></button>
-                                <button class="quest-button"><a href="#question2">Next Question &raquo;</a></button> 
-                                </div>
-                            </div>
-                        </div>
-		
-			<div class="mattressquestion">
-                                
-                                <button class="mattress-question-title"><span id="question2"></span>QUESTION #2</button>
-                            </div>
-                            <div class="mattress-question-body">
-                                <div class="mattress-question-text">
-                                    <p>&#8594; What is your preferred sleep position?</p>
-                                </div>
-                                <div class="mattress-question-why">
-                                    <h4><b>Why we ask this?</b></h4>
-                                    <p>Because the pain in your body will change the way you see the world.<br><a href="https://www.mattresszombie.com/MattressArticle/Sleep-facts.php" target="_blank">Read Article</a></p>        
-                                </div>
-                                <div class="mattress-question-choices">
-				<label><input type="radio" name="question2" class="option" onchange="scoreMattress(1, 'soft,firm');" />Soft, Firm</label><br />
-				<label><input type="radio" name="question2" class="option" onchange="scoreMattress(1, 'plush,plushfoam');" />Plush, PlushFoam</label><br />
-				<label><input type="radio" name="question2" class="option" onchange="scoreMattress(1, 'firmfoam');" />FirmFoam</label><br />
-				<label><input type="radio" name="question2" class="option" onchange="scoreMattress(1, 'firm,softfoam');" />Firm, SoftFoam</label>
-                                </div>
-                            </div>
-                            <br/>
-                            <div class="prevnextbutton">
-                                <button class="quest-button"><a href="#question1">&laquo; Previous Question</a></button>
-                                <button class="quest-button"><a href="#question3">Next Question &raquo;</a></button> 
-                        </div>
-                        </div>
-		
-			<div class="mattressquestion">
-				<b>Question 3:</b><br /><br />
-				<label><input type="radio" name="question3" class="option" onchange="scoreMattress(2, 'plush');" />Plush</label><br />
-				<label><input type="radio" name="question3" class="option" onchange="scoreMattress(2, 'plushfoam');" />PlushFoam</label><br />
-				<label><input type="radio" name="question3" class="option" onchange="scoreMattress(2, 'softfoam');" />SoftFoam</label><br />
-				<label><input type="radio" name="question3" class="option" onchange="scoreMattress(2, 'firm,firmfoam');" />Firm, FirmFoam</label>
-			</div>
-		
-			<div class="mattressquestion">
-				<b>Question 4:</b><br /><br />
-				<label><input type="radio" name="question4" class="option" onchange="scoreMattress(3, 'softfoam,firm');" />SoftFoam, Firm</label><br />
-				<label><input type="radio" name="question4" class="option" onchange="scoreMattress(3, 'firm,plush');" />Firm, Plush</label><br />
-				<label><input type="radio" name="question4" class="option" onchange="scoreMattress(3, 'plushfoam,soft');" />PlushFoam, Soft</label><br />
-				<label><input type="radio" name="question4" class="option" onchange="scoreMattress(3, 'softfoam');" />SoftFoam</label>
-			</div>
-		
-			<div class="mattressquestion">
-				<b>Question 5:</b><br /><br />
-				<label><input type="radio" name="question5" class="option" onchange="scoreMattress(4, 'firmfoam');" />FirmFoam</label><br />
-				<label><input type="radio" name="question5" class="option" onchange="scoreMattress(4, 'firm');" />Firm</label><br />
-				<label><input type="radio" name="question5" class="option" onchange="scoreMattress(4, 'plushfoam');" />PlushFoam</label><br />
-				<label><input type="radio" name="question5" class="option" onchange="scoreMattress(4, 'plush,soft');" />Plush, Soft</label>
-			</div>
-                    -->
                         <!--Reset Function-->
 		
 			<div style="text-align: center;">
@@ -373,12 +313,15 @@ div.panel {
             <script>
                 
 			var mattresses = [
-				{type: "firm", score: [0,0,0,0,0]},
-				{type: "firmfoam", score: [0,0,0,0,0]},
-				{type: "plush", score: [0,0,0,0,0]},
-				{type: "plushfoam", score: [0,0,0,0,0]},
+				{type: "extrasoft", score: [0,0,0,0,0]},
 				{type: "soft", score: [0,0,0,0,0]},
-				{type: "softfoam", score: [0,0,0,0,0]},
+				{type: "mediumsoft", score: [0,0,0,0,0]},
+				{type: "medium", score: [0,0,0,0,0]},
+                                {type: "mediumfirm", score: [0,0,0,0,0]},
+                                {type: "firm", score: [0,0,0,0,0]},
+                                {type: "extrafirm", score: [0,0,0,0,0]},
+				{type: "memoryfoam", score: [0,0,0,0,0]},
+				{type: "memoryfoamgel", score: [0,0,0,0,0]},
 			];
 			var mattresseslength = mattresses.length;
 			
@@ -387,7 +330,7 @@ div.panel {
 				for (var index = 0; index < mattress.score.length; index++) {
 					totalscore += mattress.score[index];
 				}
-				var width = 50 * totalscore;
+				var width = 60 * totalscore;
 				var output = "<div class='mattressscorebar' style='width: " + width + "px;'></div>";
 				var elementid = mattress.type + "score";
 				document.getElementById(elementid).innerHTML = output;
@@ -441,9 +384,9 @@ div.panel {
 			}
 			
 			function printResults() {
-				document.getElementById("questions").style.display = "none";
+				document.getElementById("mattressresults").style.display = "none";
 				window.print();
-				document.getElementById("questions").style.display = "block";
+				document.getElementById("mattressresults").style.display = "block";
 			}
 			
 			resetQuestions();
@@ -466,32 +409,8 @@ for (i = 0; i < acc.length; i++) {
   }
 }
 </script>
-                         
-                        
-                        
-                        <!--
-                        <script>
+             
 
-                         //collapsible function
-var acc = document.getElementsByClassName("mattress-question-title");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-    acc[i].onclick = function(){
-        this.classList.toggle("active");
-        
-        var mattress-question-body = this.nextElementSibling;
-        if (mattress-question-body.style.maxHeight){
-           mattress-question-body.style.maxHeight = null;
-        } else {
-            mattress-question-body.style.maxHeight = mattress-question-body.scrollHeight + "px";
-    } 
-  }
-}
-
-            </script>        
-            -->
-            
             
             <!--SIDE BAR -->
           <?php include $_SERVER ['DOCUMENT_ROOT'].'/modules/side.php';?>
