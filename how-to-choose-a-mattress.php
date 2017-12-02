@@ -246,9 +246,9 @@
 			}
 			
 			function printResults() {
-				document.getElementById("questions").style.display = "none";
+				document.getElementById("mattressresults").style.display = "none";
 				window.print();
-				document.getElementById("questions").style.display = "block";
+				document.getElementById("mattressresults").style.display = "block";
 			}
 			
 			resetQuestions();

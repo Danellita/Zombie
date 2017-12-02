@@ -123,7 +123,7 @@ div.panel {
 	</div>
             
 		<!--Print buttom-->
-		<div style="text-align: center; margin: 30px; display: block; padding: 10px; background-color: #006699; color: #fff; width: 160px; margin: 10px auto; border-radius: 5px; box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);">
+		<div style="text-align: center; margin: 30px; display: block; padding: 10px; background-color: #006699; color: #fff; width: 160px; margin: 10px auto; border-radius: 5px; box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); text-decoration: none;">
 			<a href="javascript:printResults();">Print</a>
 		</div>
                 <!--prueba-->
