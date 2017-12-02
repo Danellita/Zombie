@@ -110,20 +110,20 @@ div.panel {
 				<div class="mattressscoretick">7</div>
 			</div>
 			<div style="clear: both;"></div>
-			<div class="mattresstype">Extra Soft</div><div id="firmscore" class="mattressscore"></div><div style="clear: both;"></div>
-			<div class="mattresstype">Soft</div><div id="firmfoamscore" class="mattressscore"></div><div style="clear: both;"></div>
-			<div class="mattresstype">Medium Soft</div><div id="plushscore" class="mattressscore"></div><div style="clear: both;"></div>
-			<div class="mattresstype">Medium</div><div id="plushfoamscore" class="mattressscore"></div><div style="clear: both;"></div>
-			<div class="mattresstype">Medium Firm</div><div id="softscore" class="mattressscore"></div><div style="clear: both;"></div>
-			<div class="mattresstype">Firm</div><div id="softfoamscore" class="mattressscore"></div><div style="clear: both;"></div>
-			<div class="mattresstype">Extra Firm</div><div id="plushfoamscore" class="mattressscore"></div><div style="clear: both;"></div>
-			<div class="mattresstype">Add Memory Foam</div><div id="softscore" class="mattressscore"></div><div style="clear: both;"></div>
-			<div class="mattresstype">Add Memory Foam With Gel</div><div id="softfoamscore" class="mattressscore"></div><div style="clear: both;"></div>
+			<div class="mattresstype">Extra Soft</div><div id="extrasoftscore" class="mattressscore"></div><div style="clear: both;"></div>
+			<div class="mattresstype">Soft</div><div id="softscore" class="mattressscore"></div><div style="clear: both;"></div>
+			<div class="mattresstype">Medium Soft</div><div id="mediumsoftscore" class="mattressscore"></div><div style="clear: both;"></div>
+			<div class="mattresstype">Medium</div><div id="mediumscore" class="mattressscore"></div><div style="clear: both;"></div>
+			<div class="mattresstype">Medium Firm</div><div id="mediumfirmscore" class="mattressscore"></div><div style="clear: both;"></div>
+			<div class="mattresstype">Firm</div><div id="firmscore" class="mattressscore"></div><div style="clear: both;"></div>
+			<div class="mattresstype">Extra Firm</div><div id="extrafirmscore" class="mattressscore"></div><div style="clear: both;"></div>
+			<div class="mattresstype">Add Memory Foam</div><div id="memoryfoamscore" class="mattressscore"></div><div style="clear: both;"></div>
+			<div class="mattresstype">Add Memory Foam With Gel</div><div id="memoryfoamgelscore" class="mattressscore"></div><div style="clear: both;"></div>
 			
 	</div>
             
 		<!--Print buttom-->
-		<div style="text-align: center; margin: 30px;">
+		<div style="text-align: center; margin: 30px; display: block; padding: 10px; background-color: green; color: #fff;">
 			<a href="javascript:printResults();">Print</a>
 		</div>
                 <!--prueba-->
