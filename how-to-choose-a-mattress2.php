@@ -123,11 +123,11 @@ div.panel {
 	</div>
             
 		<!--Print buttom-->
-		<div style="text-align: center; margin: 30px; display: block; padding: 10px; background-color: green; color: #fff;">
+		<div style="text-align: center; margin: 30px; display: block; padding: 20px; background-color: #006699; color: #fff; width: 160px; margin: auto;">
 			<a href="javascript:printResults();">Print</a>
 		</div>
                 <!--prueba-->
-                
+                <section id="questions">    
                 <button class="accordion"><span id="question1"></span>QUESTION #1</button>
                     <div class="panel">
                         <div class="mattress-question-body">
@@ -384,9 +384,9 @@ div.panel {
 			}
 			
 			function printResults() {
-				document.getElementById("mattressresults").style.display = "none";
+				document.getElementById("questions").style.display = "none";
 				window.print();
-				document.getElementById("mattressresults").style.display = "block";
+				document.getElementById("questions").style.display = "block";
 			}
 			
 			resetQuestions();
