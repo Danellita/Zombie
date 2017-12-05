@@ -57,7 +57,7 @@
           <p class="questions-paragraph">Answer the following questions, and see how your preferences and results are coming up. Remember to print your results and take them to your favorite mattress store.</p>
           
             <!--Chart-->
-          <div class="mattressresults">
+          <div id="mattressresults">
 			
 			<div class="mattresstype"></div>
 			<div class="mattressscore">
@@ -170,7 +170,12 @@
 		
 			<div style="text-align: center;">
 				<a href="javascript:resetQuestions();">Reset</a>
-			</div>
+			</div><!--Print buttom-->
+		<div class="print-reset">
+			<a href="javascript:printResults('mattressresults');">PRINT MY ANSWERS</a>
+		</div> 
+                        
+                        
 			
 		</section>
       </div> 
@@ -244,16 +249,21 @@
 				}
 			
 			}
-			
-			function printResults() {
-				document.getElementById("mattressresults").style.display = "none";
-				window.print();
-				document.getElementById("mattressresults").style.display = "block";
-			}
-			
+                            
 			resetQuestions();
                         
                         </script>
+                        <script>
+                            
+                        function printResults('mattressresults') {
+                            var restorepage = document.body.innerHTML;
+                            var printresults =document.getElementById('mattressresults').innerHTML;
+                            document.body.innerHTML = printresults;
+                            window.print();
+                            document.body.innerHTML = restorepage;
+                        }
+                            
+                            </script>
                         <script>
 
                          //collapsible function

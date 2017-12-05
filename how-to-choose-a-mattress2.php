@@ -95,38 +95,12 @@ div.panel {
       <div id="full-page-questions">
           <h1 class="questions-title">HOW TO CHOOSE YOUR MATTRESS</h1>
           <p class="questions-paragraph">Answer the following questions, and see how your preferences and results are coming up. Remember to print your results and take them to your favorite mattress store.</p>
+          <div id="turn-alert">
+              <p>IMPORTANT: Turn your device on Landscape to see the questions more clear. You will be able to print the results when finish answering the questions.</p>
+          </div>
           
-            <!--Chart-->
-          <div class="mattressresults">
-			
-			<div class="mattresstype"></div>
-			<div class="mattressscore">
-				<div class="mattressscoretick" style="border-left: 1px solid #BBBBBB;">1</div>
-				<div class="mattressscoretick">2</div>
-				<div class="mattressscoretick">3</div>
-				<div class="mattressscoretick">4</div>
-				<div class="mattressscoretick">5</div>
-				<div class="mattressscoretick">6</div>
-				<div class="mattressscoretick">7</div>
-			</div>
-			<div style="clear: both;"></div>
-			<div class="mattresstype">Extra Soft</div><div id="extrasoftscore" class="mattressscore"></div><div style="clear: both;"></div>
-			<div class="mattresstype">Soft</div><div id="softscore" class="mattressscore"></div><div style="clear: both;"></div>
-			<div class="mattresstype">Medium Soft</div><div id="mediumsoftscore" class="mattressscore"></div><div style="clear: both;"></div>
-			<div class="mattresstype">Medium</div><div id="mediumscore" class="mattressscore"></div><div style="clear: both;"></div>
-			<div class="mattresstype">Medium Firm</div><div id="mediumfirmscore" class="mattressscore"></div><div style="clear: both;"></div>
-			<div class="mattresstype">Firm</div><div id="firmscore" class="mattressscore"></div><div style="clear: both;"></div>
-			<div class="mattresstype">Extra Firm</div><div id="extrafirmscore" class="mattressscore"></div><div style="clear: both;"></div>
-			<div class="mattresstype">Add Memory Foam</div><div id="memoryfoamscore" class="mattressscore"></div><div style="clear: both;"></div>
-			<div class="mattresstype">Add Memory Foam With Gel</div><div id="memoryfoamgelscore" class="mattressscore"></div><div style="clear: both;"></div>
-			
-	</div>
-            
-		<!--Print buttom-->
-		<div style="text-align: center; margin: 30px; display: block; padding: 10px; background-color: #006699; color: #fff; width: 160px; margin: 10px auto; border-radius: 5px; box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); text-decoration: none;">
-			<a href="javascript:printResults();">Print</a>
-		</div>
-                <!--prueba-->
+   
+                <!--QUESTIONS-->
                 <section id="questions">    
                 <button class="accordion"><span id="question1"></span>QUESTION #1</button>
                     <div class="panel">
@@ -277,7 +251,7 @@ div.panel {
                         </div>
                     </div>
                 
-                    <button class="accordion"><span id="question5"></span>QUESTION #7</button>
+                    <button class="accordion"><span id="question7"></span>QUESTION #7</button>
                     <div class="panel">
                         <div class="mattress-question-body">
                                 <div class="mattress-question-text">
@@ -299,15 +273,44 @@ div.panel {
                             </div>
                         </div>
                     </div>
+                    
+                <!--Chart-->   
+                    <div class="mattressresults">
+			
+			<div class="mattresstype"></div>
+			<div class="mattressscore">
+				<div class="mattressscoretick" style="border-left: 1px solid #BBBBBB;">1</div>
+				<div class="mattressscoretick">2</div>
+				<div class="mattressscoretick">3</div>
+				<div class="mattressscoretick">4</div>
+				<div class="mattressscoretick">5</div>
+				<div class="mattressscoretick">6</div>
+				<div class="mattressscoretick">7</div>
+			</div>
+			<div style="clear: both;"></div>
+			<div class="mattresstype">Extra Soft</div><div id="extrasoftscore" class="mattressscore"></div><div style="clear: both;"></div>
+			<div class="mattresstype">Soft</div><div id="softscore" class="mattressscore"></div><div style="clear: both;"></div>
+			<div class="mattresstype">Medium Soft</div><div id="mediumsoftscore" class="mattressscore"></div><div style="clear: both;"></div>
+			<div class="mattresstype">Medium</div><div id="mediumscore" class="mattressscore"></div><div style="clear: both;"></div>
+			<div class="mattresstype">Medium Firm</div><div id="mediumfirmscore" class="mattressscore"></div><div style="clear: both;"></div>
+			<div class="mattresstype">Firm</div><div id="firmscore" class="mattressscore"></div><div style="clear: both;"></div>
+			<div class="mattresstype">Extra Firm</div><div id="extrafirmscore" class="mattressscore"></div><div style="clear: both;"></div>
+			<div class="mattresstype">Add Memory Foam</div><div id="memoryfoamscore" class="mattressscore"></div><div style="clear: both;"></div>
+			<div class="mattresstype">Add Memory Foam With Gel</div><div id="memoryfoamgelscore" class="mattressscore"></div><div style="clear: both;"></div>
+                    </div>
                 
                 
-                        <!--Reset Function-->
-		
-			<div style="text-align: center;">
-				<a href="javascript:resetQuestions();">Reset</a>
+                <!--Reset Function-->
+			<div class="print-reset">
+				<a href="javascript:resetQuestions();">RESET</a>
 			</div>
 			
 		</section>
+                
+                <!--Print buttom-->
+		<div class="print-reset">
+			<a href="javascript:printResults();">PRINT MY ANSWERS</a>
+		</div>    
       </div> 
             
             <script>
