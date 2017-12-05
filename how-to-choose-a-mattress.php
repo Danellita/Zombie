@@ -84,7 +84,7 @@
             
 		<!--Print buttom-->
 		<div style="text-align: center; margin: 30px;">
-			<a href="javascript:printResults();">Print</a>
+			<a href="javascript:printResults('mattressresults');">PRINT MY ANSWERS</a>
 		</div>
                 
                 <!--QUESTIONS-->

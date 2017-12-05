@@ -1,3 +1,4 @@
+
 /* Color Palette
 ------------------------------
 #006699; -azul acero
@@ -531,6 +532,7 @@ main {
                             box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
                             text-decoration: none;
                         }
+                     
                         
                         /*CHART & Page
                         Tablet mark up*/
@@ -1032,30 +1034,26 @@ tr td {
 _________________________________*/
 #confussion2 {
     display: block; 
-    margin-left: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-right: 20px;
     height: 50px;
-    width: 50%;
+    width: 40%;
     border: 3px solid #006699;/*azul acero*/
 }
 #confussion2 h3 {
     text-align: center;
     white-space: nowrap;
-    line-height: 80pt;
     color: #333; /*dark gray*/
     font-size: 1.3em;
     line-height: 10pt;
 }
-   @media only screen and (min-device-width: 320px)
-and (orientation: portrait),
-screen and (max-device-width: 480px) and
-(orientation: landscape){
-#confussion2 {
+/*Tablet mark Up*/
+@media screen and (max-width:640px){
+    #confussion2 {
     display: block;
-    text-align: center;
-    width: 80%;
-    height: 30px;
+    width: 40%;
+    height: 40px;
     border: 2px solid #006699;/*azul acero*/ 
     margin: auto;
 }
@@ -1064,6 +1062,27 @@ screen and (max-device-width: 480px) and
     margin: auto;  
     font-size: 1.1em;
     white-space: nowrap;
+    line-height: 30pt;
+}
+/*Phoone Mark Up*/
+   @media only screen and (min-device-width: 320px)
+and (orientation: portrait),
+screen and (max-device-width: 480px) and
+(orientation: landscape){
+#confussion2 {
+    display: block;
+    text-align: center;
+    width: 80%;
+    height: 40px;
+    border: 2px solid #006699;/*azul acero*/ 
+    margin: auto;
+}
+#confussion2 h3 {
+    color: #333; /*dark gray*/
+    margin: auto;  
+    font-size: 1.1em;
+    white-space: nowrap;
+    line-height: 30pt;
 }
 }
 
@@ -1840,7 +1859,7 @@ table.responsive.second td .data ul{
 }
 #bottom {
   text-align: center;
-  white-space: wrap;
+  white-space: nowrap;
 }
 }
 
@@ -2398,6 +2417,11 @@ screen and (max-device-width: 640px) and
 }
 
 
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
 /*
     Created on : Jun 15, 2017, 5:37:16 AM
     Author     : DanyMac
