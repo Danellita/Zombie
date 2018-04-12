@@ -73,7 +73,8 @@ if (isset($_POST['submit'])) {
                     <?php if(isset($success) && $success){ ?>
                     <p class='articles-main-paragraph'>Thank You for your submission!</p>
                     <p class='articles-main-paragraph'>Your input was received and</p>
-                    <p class='articles-main-paragraph'>we will contact you really soon!</p>
+                    <p class='articles-main-paragraph'>we will reply directly to you,</p>
+                    <p class='articles-main-paragraph'>or publish an article about your request!</p>
                     <?php }
                     
                     else{ ?>

@@ -3,21 +3,52 @@
     <head>
         <link rel="alternate" href="http://mattresszombie.com/index.php" hreflang="en-us" />
         <meta charset="utf-8">
-        <meta name="description" content="Mattresszombie all about mattress, learn how to choose a mattress,  find the best one, United States of America, Europe, mattress science, learning service, how to choose a mattress.">
-        <meta name="Keywords" content="what mattress is best?, choosing the best mattress, selecting a mattress, better mattress, choosing a mattress, mattresszombie, all about mattress, glossary, meaning, all about mattress, mattress terminology, how to choose a mattress,  find the best mattress, United States of America, Europe, mattress science, mattress education, mattress school, mattress info, learning service, select best mattress for you, back ache, lumbar pain, changig mattress, how to select the best mattress for me." /> 
+        <meta name="description" content="Mattresszombie contact us, learn how to choose a mattress, Thank you for stopping by! We would love to hear your comments and questions about mattress, and will reply directly to you or publish an article about it.">
+        <meta name="Keywords" content="Adjustable bases, Adjustable mattresses, Sleeping on your back, Sleeping on your side, Sleeping on your stomach, Spring coil mattresses, Foam mattresses, Gel mattresses, Memory foam mattresses, Hybrid mattresses, Snoring, Esophageal reflux, Sinus conditions, Tossing and turning, Back pain, Neck pain, Leg pain, Knee pain, Sleep apnea, Sleep deprivation, Rem, Deep sleep, Mattress choice, Firm mattress, Soft mattress, Plush mattress, Tufted mattress, Separate mattresses, Dual mattresses, Hospital bed, Sleep position, Sleep temperature, Sleeping warm Mattresszombie, all about mattresses, how to choose a mattress,  find the best mattress, mattress science, mattress education, mattress school, mattress info, learning mattress service, select best mattress for you, backache, lumbar pain, changing mattress, how to select the best mattress." /> 
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--MarkUp for Twitter-->
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@mattresszombie" />
+        <meta name="twitter:image" content="http://www.mattresszombie.com/images/front-pic4-web.jpg" />      
+        <meta property="og:url" content="http://www.mattresszombie.com/contact.php" />
+        <meta property="og:title" content="Contact MattressZombie" />
+        <meta property="og:description" content="Mattresszombie contact us, learn how to choose a mattress, Thank you for stopping by! We would love to hear your comments and questions about mattress, and will reply directly to you or publish an article about it." />
+        <meta property="og:image" content="http://www.mattresszombie.com/images/front-pic4-web.jpg" />
+            
+        <!--MarkUp for Facebook-->
+        <meta property="og:url"                content="http://www.mattresszombie.com/contact.php" />
+        <meta property="og:type"               content="article" />
+        <meta property="og:title"              content="Contact MattressZombie" />
+        <meta property="og:description"        content="Mattresszombie contact us, learn how to choose a mattress, Thank you for stopping by! We would love to hear your comments and questions about mattress, and will reply directly to you or publish an article about it." />
+        <meta property="og:image"              content="http://www.mattresszombie.com/images/front-pic4-web.jpg" />
+        
+        <!--MarkUp for Google Plus-->
+        <meta property="og:type" content="article" />
+        <meta itemprop="og:headline" content="Contact MattressZombie" />
+        <meta itemprop="og:description" content="Mattresszombie contact us, learn how to choose a mattress, Thank you for stopping by! We would love to hear your comments and questions about mattress, and will reply directly to you or publish an article about it." />
+        <meta property="og:image" content="http://www.mattresszombie.com/images/front-pic4-web.jpg" />
+        
         
         <title>
             Contact MattressZombie
         </title>
        <?php include $_SERVER ['DOCUMENT_ROOT'].'/modules/head.php';?>
+        
+        <link type="text/css" rel="stylesheet" href="/CCS/mattress_zombie_print2.css" media="print">
+ 
    <script>
 	$( function()
 	{
 		$( '#nav li:has(ul)' ).doubleTapToGo();
 	});
 </script>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools --> 
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a5fddd4c0734266">
+        </script>
+        
     </head>
     <body>
         <div id="fixed">
@@ -115,7 +146,7 @@
             <hr id="contact-line">
     <p>&nbsp;</p>
     <p class='articles-main-paragraph'><strong>Thank you for stopping by!</strong></p>     
-    <p class='articles-texto'>We would love to hear your comments and questions. We will reply directly to you, or publish an article about it.</p>
+    <p class='articles-texto'>We would love to hear your comments and questions, and will reply directly to you or publish an article about it.</p>
     <p>&nbsp;</p>
     
      
@@ -147,20 +178,22 @@
     <input name="submit" type="submit" value="SEND MESSAGE"/>
 </form>
             
-   </div>            
+   </div>  
+   
+   
            
             <!--SIDE BAR -->
           <section id="social">
-    <div>
+    <!--div>
         <hr class="share_line">
         <p class='share-texto'>Share this article!</p>
         <hr class="share_line">
-    </div>
+    </div-->
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- Add font awesome icons -->
-<div id="social-icons">
+<!--div id="social-icons">
     
 <a href="https://www.facebook.com/share" alt="facebook-share-button" class="fa fa-facebook" target="_blank"></a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 <a href="https://twitter.com/share" alt="twitter-share-button" data-show-count="false" class="fa fa-twitter"></a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -171,11 +204,11 @@
 <a href="#" class="fa fa-instagram"></a>
 <a href="#" class="fa fa-pinterest"></a>
 <a href="#" class="fa fa-snapchat-ghost"></a>
--->
-</div>
+
+</div>-->
 <div class="side">
 <div id="howtobutton">
-    <a herf="/how_to_choose.php"><img src="/images/How-To-Choose2.png" alt="how to choose a Mattress"></a>   
+    <a href="/ChoosingAMattress/how-to-choose-a-mattress.php"><img src="/images/How-To-Choose2.png" alt="how to choose a Mattress"></a>   
 </div>
     <hr class="side_line" />
 <div id="side1">
