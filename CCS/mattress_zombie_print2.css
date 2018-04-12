@@ -1,0 +1,113 @@
+ /*PRINT ACTION on SIDE - Articles and School*/
+                            @media print {
+                            #logo_mattress{display: none;}
+                            #mini {display: none;}
+                            #nav_main {display: none;}
+                            .breadcrumb {display: none;}
+                            #sharing {display: none;}
+                            .questions-paragraph {display: none;}
+                            #turn-alert {display: none;}
+                            .accordion .panel .mattress-question-body .mattress-question-text .mattress-question-why .mattress-question-choices .prevnextbutton {display: none;}
+                            .print-reset {display: none;}
+                            #social {display: none;}
+                            #foot {display: none;}
+                            .panel {display: none;}
+                            .accordion{display:none;}
+                            #abc {display: none;}
+                            .school-main-body a {display: none;}
+                            .faq-list {display: none;}
+                            .faq-main-body a {display: none;}
+                            .articles-list ul {display: none;}
+                        }
+
+
+@page {
+      margin: 2cm 2.5cm 2cm 2.5cm;
+   }
+body {
+   margin: auto;
+   page-break-inside: avoid;
+   position: absolute;
+   }   
+
+.school-title {
+    text-align: center;
+    margin: 1cm auto;
+    font-size: 14pt;
+    font-weight: bold;
+    color: #000;
+    background: none;   
+   }
+   .articles-title{
+    text-align: center;
+    margin: 1cm auto;
+    font-size: 14pt;
+    font-weight: bold;
+    color: #000;
+    background: none;    
+   }
+img {
+    display: block;
+    width: 70%; 
+    margin:  auto;
+    text-align: center;
+    padding: .5cm;
+   }
+.articles-list {
+    margin-left: 1cm;
+    text-align: left;
+    font-size: 11pt;
+    color: #000;
+   }   
+.school-texto .articles-texto{
+    text-align: left;
+    font-size: 11pt;
+    color: #000;
+    background: none;
+}
+.bottom-links {
+    margin-left: 5cm;
+    text-align: left;
+    line-height: 20pt; 
+    font-size: 11pt;
+    text-decoration: none;
+}
+.website-address1 {
+    text-align: center;
+    margin: auto;
+}
+.website-address1 img {
+    margin: auto;
+    width: 40%;
+    padding-bottom: 0.5cm;
+}
+.website-address2 p{
+    display: inline-block;
+    color: #999999;
+    font-size: 9pt;
+    width: 100%;
+    padding-top: 0.5cm;
+    padding-bottom: 0cm;
+    position: fixed;
+    bottom: 0cm;
+    left: 0cm;
+    text-align: left;
+    
+}
+
+.line-top {
+    border: solid #ddd 1px;
+}
+
+
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 23, 2018, 7:26:39 PM
+    Author     : DanyMac
+*/
+

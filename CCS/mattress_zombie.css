@@ -35,6 +35,7 @@ main {
     height: 185px;
     background-color: #fff;
     top: 0;
+    z-index: 10;
 }
 /* top blue ribbon*/
 #mini {
@@ -53,7 +54,6 @@ main {
     font-weight: lighter;
     font-style: italic;
     margin: 0 auto;
-    overflow: auto;
     font-size: 14px;
 }
 /*logo area*/
@@ -81,11 +81,12 @@ main {
   box-shadow: 0 2px 3px rgba(0,0,0,.4);
   text-align: center;
   margin: auto;
+  font-size: 90%;
 }
 #nav {
   font-family: 'Open Sans', sans-serif;
   padding-top: 1px;
-  padding-left: 18%;
+  padding-left: 8%;
 }
 #nav > a {
   display: none;
@@ -98,8 +99,8 @@ main {
   color: #fff;
   display: block;
   text-decoration: none;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 12px;
+  padding-left: 12px;
 }
 #nav li a:active {
   background-color: #999 !important; /*when you click*/
@@ -185,13 +186,12 @@ main {
 /*end navigation*/
 
 /*NAVIGATION for Tablets & smartphones*/
-
 @media screen and (max-width:740px){
-  html {
+html {
     font-size: 100%;
     /* 12 */
-  }
-  #nav_main{
+}
+#nav_main{
     display:block;
     width: 100%;
     background-color: #006699;
@@ -199,31 +199,28 @@ main {
     top:0;
     left: 0;
     position:fixed;
-  }
-  #nav {
-  font-family: 'Open Sans', sans-serif;
-  padding-left: 5%;
-  }
+}
 #nav {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    max-height: 100%;
+    padding-left: 5%;
     position: relative;
     top: auto;
     left:0;
   }
-  #nav > a {
+#nav > a {
     width: 45px;
-    /* 50 */
     height: 45px;
-    /* 50 */
     text-align: left;
     text-indent: -9999px;
     background-color: #006699;
-    position: relative;
   }
-  #nav > a:before,
-  #nav > a:after {
+ #nav > a:before,
+ #nav > a:after {
     position: absolute;
     content: '';
-    left: 0;
+    left: 15px;
     top: 0.8em;
     bottom: 0.4em;
     width: 2.3em;
@@ -233,34 +230,33 @@ main {
     #006699 16%, #006699 42%, 
     white 42%, white 58%, 
     #006699 58%, #006699 84%, 
-    white 84%, white 100%);
-  }
-  #nav:not(:target) > a:first-of-type,
-  #nav:target > a:last-of-type {
+    white 84%, white 100%); 
+  }  
+#nav:not( :target ) > a:first-of-type,
+#nav:target > a:last-of-type{
     display: block;
-  }
-  /* first level */
-  #nav > ul {
+}
+
+    /* first level*/ 
+ #nav > ul{
     height: auto;
     display: none;
     position: absolute;
+    top: 38px;
     left: 0;
     right: 0;
-    padding-top: 0; /*new*/
-    top: 40px;
-  }
-  #nav:target > ul {
+}
+#nav:target > ul {
     display: block;
   }
   #nav > ul > li {
     width: 100%;
     float: none;
   }
-  #nav > ul > li > a {
+ #nav > ul > li > a {
     height: auto;
     text-align: left;
     padding: 5px 0.833em;
-    /* 20 (24) */
   }
   #nav li:hover ul {
   display: block;
@@ -268,28 +264,40 @@ main {
   width: 90%;
   margin-left: 10%;
 }
-  #nav > ul > li:not(:last-child) > a {
+  #nav > ul > li/*:not(:last-child)*/ > a {
     border-right: none;
     border-bottom: 1px solid #cc0000;
   }
-  /* second level */
-   #nav li ul {
+
+ 
+    /* second level*/
+#nav li ul{
     position: static;
-    /* 20 */
 }
 #nav li ul li:not(:first-child) a {
   border-top: 1px solid #ccc;
 }
 #nav li ul li a {
-  font-size: 1em;
-}     
+  font-size: 1.1em;
 }
-@media only screen and ( max-width: 60em)
-/* 640 */
-{
+
+
+/*LOGO*/
+#logo_mattress {
+   display: block;
+   width: auto;
+   padding-top: 80px;
+   background-color: #fff;
+   padding-bottom: 25px;
+   border-bottom: #003366 solid 4px;/*dark blue*/
+   z-index: -1
+}
+}
+/*@media only screen and ( max-width: 60em)
+640 {
    html {
     font-size: 100%;
-    /* 12 */
+    /* 12 
   }
   #nav_main{
     display:block;
@@ -311,9 +319,9 @@ main {
   }
   #nav > a {
     width: 45px;
-    /* 50 */
+    /* 50 
     height: 45px;
-    /* 50 */
+    /* 50 
     text-align: left;
     text-indent: -9999px;
     background-color: #006699;
@@ -339,14 +347,14 @@ main {
   #nav:target > a:last-of-type {
     display: block;
   }
-  /* first level */
+  /* first level 
   #nav > ul {
     height: auto;
     display: none;
     position: absolute;
     left: 0;
     right: 0;
-    padding-top: 0; /*new*/
+    padding-top: 0;
     top: 40px;
   }
   #nav:target > ul {
@@ -360,7 +368,7 @@ main {
     height: auto;
     text-align: left;
     padding: 5px 0.833em;
-    /* 20 (24) */
+    /* 20 (24) 
   }
   #nav li:hover ul {
   display: block;
@@ -372,10 +380,9 @@ main {
     border-right: none;
     border-bottom: 1px solid #cc0000;
   }
-  /* second level */
+  /* second level 
    #nav li ul {
     position: static;
-    /* 20 */
 }
 #nav li ul li:not(:first-child) a {
   border-top: 1px solid #ccc;
@@ -383,7 +390,7 @@ main {
 #nav li ul li a {
   font-size: 1em;
 }
-  }
+  }*/
   
   
 /*Main content*/
@@ -403,7 +410,6 @@ main {
     font-size: 1.2em;
     padding: 2px 0 1px 0;
     border-bottom: solid 4px #fff;
-    z-index: -4;
 }
 
 /*Picture*/
@@ -431,10 +437,10 @@ main {
     padding-top: 5px;
     padding-bottom: 5px;
     height: 150px;
-    background:rgba(0,0,0,.4);
+    background-color:rgba(0, 0, 0,.4);
     margin-top: 90px;
     margin-bottom: 110px;
-    color: #fff;
+    color:#fff;
     text-align: center;
     position:relative;
     z-index: -7;
@@ -449,7 +455,7 @@ main {
     line-height: 0.8em;
 }
 
-                        /*HOW TO CHOOSE TEST page*/
+                        /*HOW TO CHOOSE TEST survey - general*/
                         #full-page-questions {
                             display: block;
                             margin-left: 110px;
@@ -462,7 +468,7 @@ main {
                             }
                         .questions-title {
                             font-size: 2.2em;
-                            width: 65%;
+                            width: 100%;
                             font-weight: lighter;
                             text-align: center;
                             color: #003366; /*Dark blue*/
@@ -473,12 +479,50 @@ main {
                             font-style: italic;
                             font-weight: lighter;
                             }
-                                                           
-                        /*CHART only*/
-                        #turn-alert {
+                        #position-tips {
+                            display: none;
+                        }
+                        
+                         /*HOW TO CHOOSE survey page - Smart Phone mark up*/
+                @media only screen and (min-device-width: 320px)
+                    and (orientation: portrait),
+                    screen and (max-device-width: 480px) and
+                    (orientation: landscape){
+                        #full-page-questions {
+                            display: block;
+                            margin: auto;
+                            text-align: center;
+                            padding-top: 5px;
+                            padding-bottom: 50px;
+                            padding-left: 15px;
+                            width: 90%;
+                            font-family: Helvetica, Verdana, sans-serif;
+                            }
+                        .questions-title {
+                            font-size: 2.2em;
+                            width: 95%;
+                            font-weight: lighter;
+                            text-align: center;
+                            color: #003366; /*Dark blue*/
+                            } 
+                        .questions-paragraph {
+                            font-size: 1.1em;
+                            color: #006699; /*blue*/
+                            font-style: italic;
+                            font-weight: lighter;
+                            }
+                         #position-tips {
+                            display: none;
+                        }
+                        } 
+                        /* End Page_________*/
+                        
+                        
+                          /*CHART only - generals*/   
+                         #turn-alert {
                             display: none;
                             }
-                        .mattressresults {
+                         .mattressresults {
                             margin-bottom: 10px;
                             padding: 10px;
                             width: 95%;
@@ -515,8 +559,8 @@ main {
 				color: #999999;
 				border-right: 1px solid #BBBBBB;
 				border-bottom: 1px solid #BBBBBB;
-			}
-                        .print-reset a{
+			} 
+                        .print-reset button{
                             line-height: 1.5em;
                             text-decoration: none;
                             color: #fff;
@@ -532,134 +576,100 @@ main {
                             box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
                             text-decoration: none;
                         }
-                     
-                        
-                        /*CHART & Page
-                        Tablet mark up*/
-                  @media screen and (max-width:640px){
+                        .print-reset a:visited{
+                            color: #fff;
+                        }
+                      
+                        /*CHART ON PORTRAIT - Smart Phone*/
+                         @media only screen 
+                       and (min-device-width: 375px) 
+                      and (max-device-width: 667px) 
+                      and (-webkit-min-device-pixel-ratio: 2)
+                      and (orientation: portrait) { 
+
                         .mattressresults{
                             display: none;
                             }
                         #turn-alert {
                             display: block;
-                            } 
-                        #full-page-questions {
-                            display: block;
-                            margin: auto;
-                            padding-top: 5px;
-                            padding-left: 15px;
-                            padding-bottom: 50px;
-                            width: 90%;
-                            font-family: Helvetica, Verdana, sans-serif;
-                            }
-                        .questions-title {
-                            font-size: 2.2em;
-                            width: 75%;
-                            font-weight: lighter;
-                            text-align: left;
-                            color: #003366; /*Dark blue*/
-                            }
-                        .questions-paragraph {
                             font-size: 1.1em;
-                            color: #006699; /*blue*/
-                            font-style: italic;
-                            font-weight: lighter;
-                            }
-                        }
-                        /*CHART & Page
-                        Smart Phone mark up*/
-                @media only screen and (min-device-width: 320px)
-and (orientation: portrait),
-screen and (max-device-width: 480px) and
-(orientation: landscape){
-                         .mattressresults{
-                            display: none;
-                            }
-                         #turn-alert {
-                            display: block;
-                            color: #666; /*gray*/
-                            font-weight: lighter;
-                            line-height: 1.4em;
-                            }
-                        #full-page-questions {
-                            display: block;
-                            margin: auto;
-                            padding-top: 5px;
-                            padding-left: 15px;
-                            padding-bottom: 50px;
-                            width: 90%;
-                            font-family: Helvetica, Verdana, sans-serif;
-                            }
-                        .questions-title {
-                            font-size: 2.2em;
-                            width: 75%;
-                            font-weight: lighter;
-                            text-align: left;
-                            color: #003366; /*Dark blue*/
-                            }
-                        .questions-paragraph {
-                            font-size: 1.1em;
-                            color: #006699; /*blue*/
-                            font-style: italic;
-                            font-weight: lighter;
-                            }
-                        }
-                        /*------------*/
-                        
-                        /*QUESTIONS and CHOICES
-                        general*/
-			.panel {
-                            margin-left: auto;
-                            margin-right: auto;
-                            margin-top: 0;
-                            background-color: #f6f6f6;
-                            border-left: 1px solid #999;
-                            border-right: 1px solid #999;
-                            border-bottom: 1px solid #999;
-                            overflow: auto;
-                            box-shadow: 0 2px 3px rgba(0,0,0, .4);
-			}
-                        /*QUESTION Red Title*/
-                        button.accordion {
-                            background-color: #990000;
-                            color: #fff;
-                            font-size: 1.3em;
-                            margin-top: 0;
-                            height: 50px;
-                            width: 90%;
-                            cursor: pointer;
-                            font-weight: bold;
-                            letter-spacing: 2px;
-                            float: left;
-                            border: none;
-                            text-align: left;
-                            padding-left: 10px;
-                            padding-top: 12px;
-                            transition: 0.4s;
-                        }
-                        button.mattress-question-title.active, button.mattress-question-title:hover {
-                            color: #BBBBBB;
-                        }
-                        button.mattress-question-title:after {
-                            content: '\002B'; /* Unicode character for "minus" sign (+) */
-                            color: #fff;
-                            font-weight: bold;
-                            float: right;
-                            padding-right: 25px;
-                       }
-                       button.mattress-question-title.active:after {
-                            content: "\2212"; /* Unicode character for "minus" sign (-) */
-                        }
-                        .mattress-question-body {
-                            overflow: hidden;
-                            transition: max-height 0.2s ease-out;
+                            background-color: #ffbe0d;
+                            padding: 5px 10px;
                             margin-bottom: 10px;
-                            width: 85%;
-                            height: auto;
-                            margin-left: auto;
-                            margin-right: auto;
+                            color: #000; /*black*/
+                            font-weight: lighter;
+                            }
+                        .print-reset a {
+                            color: #fff;
+                            }
+                        .print-reset a:visited{
+                            color: #fff;
                         }
-                         /*QUESTION*/
+                        }
+                        /*CHART ON LANDSCAPE - Smart Phone*/
+                       /* Landscape */
+                    @media only screen 
+                     and (min-device-width: 375px) 
+                     and (max-device-width: 667px) 
+                     and (-webkit-min-device-pixel-ratio: 2)
+                     and (orientation: landscape) { 
+                         #turn-alert {
+                             display: none;
+                         }
+                         .mattressresults {
+                            margin-bottom: 10px;
+                            padding: 0;
+                            margin: auto;
+                            width: 100%;
+                            border: 1px solid #999;
+                            background-color: #F6F6F6;
+			}
+			.mattresstype {
+                            float: left;
+                            width: 18%;
+                            padding: 5px;
+                            font-size: 0.8em;
+                            text-align: right;
+                            line-height: 0.9em;
+			}
+			.mattressscore {
+                            float: left;
+                            width: 80%;
+                            padding: 5px 0;
+                            white-space: nowrap;
+			}
+			.mattressscorebar {
+				float: left;
+				height: 0.9em;
+				background-color: #669933;
+				/*background-color: #000000;*/
+				border: 1px solid #000000;
+			}
+			.mattressscoretick {
+				float: left;
+                                width: 60px;
+				text-align: center;
+                                white-space: nowrap;
+				font-size: 12px;
+				color: #999999;
+				border-right: 1px solid #BBBBBB;
+				border-bottom: 1px solid #BBBBBB;
+			} 
+                         .print-reset a{
+                            color: #fff;
+                        }
+                        .print-reset a:visited{
+                            color: #fff;
+                        }
+                        }
+                        /* End of CHART_______*/
+                        
+                        /*QUESTIONS and WHY? - generals*/
+			/* --(Red Ribbon css is styled on page)--*/
+                        .mattress-question-body {
+                            height: auto;
+                            margin: auto;
+                        }
                         .mattress-question-text {
                             display: block;
                             text-align: left;
@@ -667,35 +677,87 @@ screen and (max-device-width: 480px) and
                             width: 45%;
                             color: #333;
                             float: left;
-                            padding-top: 10px;
-                            padding-left: 30px;
+                            padding-top: 25px;
+                            padding-left: 20px;
                             padding-bottom: 10px;
-                            font-size: 1.3em;
+                            font-size: 1.1em;
                         }
                         /*WHY?*/
                         .mattress-question-why {
                             display: block;
-                            background-color: #999;
-                            color:#fff;
+                            background-color: #ccc;
+                            color: #000;
                             width: 40%;
-                            float: left;
+                            float: right;
                             font-size: .9em;
                             letter-spacing: 1px;
-                            margin: 30px 15px 10px;
+                            margin: 30px 20px 10px;
                             padding: 1px 15px;
-                            -moz-border-radius: 20px;
-                            -webkit-border-radius: 20px;
-                                border-radius: 20px;
+                            box-shadow: 0 2px 3px rgba(0,0,0, .3);
                         }
-                        .mattress-question-why h4{
+                        /*.mattress-question-why h4{
                             text-align: left;
-                        }
+                        }*/
                         .mattress-question-why p {
                             text-align: left;
-                            line-height: 1.3em;
+                            line-height: 1.2em;
                         }
-                       /*Choice Pictures*/
-                        .mattress-question-choices {
+                       /* .mattress-question-why p a:link {
+                            text-align: center;
+                        }*/
+                        
+                        /* QUESTIONS and WHY? Smart Phone-Portrait and Landscape */
+                        @media only screen 
+                         and (min-device-width: 375px) 
+                         and (max-device-width: 667px) 
+                         and (-webkit-min-device-pixel-ratio: 2) { 
+                        .mattress-question-body {
+                            height: auto;
+                            margin: auto;
+                            left: 0;
+                            background-color: #fff;
+                            padding: 0;
+                        }
+                        .mattress-question-text {
+                            display: block;
+                            text-align: center;
+                            margin: auto;
+                            font-weight: bold;
+                            width: 100%;
+                            color: #333;
+                            padding: 10px 0 8px;
+                            font-size: 1em;
+                        }
+                        /*WHY?- Smart Phone*/
+                        .mattress-question-why {
+                            clear: both;
+                            display: block;
+                            background-color: #ccc;
+                            color:#333;
+                            width: 90%;
+                            font-size: 1em;
+                            letter-spacing: 1px;
+                            margin: auto;
+                            box-shadow: 0 2px 3px rgba(0,0,0, .3);
+                        }
+                        /*.mattress-question-why h4{
+                            text-align: center;
+                            padding: 0;
+                        }*/
+                        .mattress-question-why p {
+                            text-align: center;
+                            line-height: 1em;
+                        }
+                        .mattress-question-why p a:link {
+                            text-align: center;
+                        }
+                         }
+                        /*End of QUESTIONS and WHY?
+                        ________________________*/
+                         
+                        
+                        /*CHOICES & IMAGES - generales */
+                      .mattress-question-choices {
                             clear: both;
                             overflow: auto;
                             padding-top: 20px;
@@ -746,104 +808,273 @@ screen and (max-device-width: 480px) and
                             border: #333;
                             margin-left: 2%;
                             margin-right: 2%;
+                            box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+                            transition: all 0.3s;
+                        }
+                        .quest-button:hover {
+                            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
                         }
                         
-                        /*QUESTIONS 
-                        Tablet mark Up*/
-                        @media screen and (max-width:640px){
-                         /*QUESTION*/
-                        .mattress-question-text{
-                            display: block;
-                            text-align: left;
-                            font-weight: bold;
-                            color: #333;
-                            float: left;
-                            width: 80%;
-                            padding: 10px;
-                            font-size: 1.2em;
-                        }
-                         /*WHY?*/
-                        .mattress-question-why {
-                            display: block;
-                            width: 90%;
-                            background-color: #999;
-                            color:#fff;
-                            font-size: .9em;
-                            letter-spacing: 1px;
-                            margin: 0 auto;
-                            -moz-border-radius: 10px;
-                            -webkit-border-radius: 10px;
-                                border-radius: 10px;
-                        }
-                        .mattress-question-why h4{
-                            text-align: left;
-                            padding: 0;
-                        }
-                        .mattress-question-why p {
-                            text-align: center;
-                            line-height: 1.1em;
-                        }
-                       /*Choice Pictures*/
-                        .mattress-question-choices {
+                        /* CHOICES & IMAGES - Smart Phone - Only Portrait */
+                         @media only screen 
+                       and (min-device-width: 375px) 
+                      and (max-device-width: 667px) 
+                      and (-webkit-min-device-pixel-ratio: 2)
+                      and (orientation: portrait) { 
+                           .mattress-question-choices {
                             clear: both;
                             overflow: auto;
-                            padding-top: 5px;
-                            padding-bottom: 5px;
+                            width: 100%;
+                            padding-top: 15px;
+                            padding-bottom: 15px;
                             background-color: #fff;
-                            margin: 5px;
+                            margin: auto;
                         }
-                        .mattress-question-choices input{
-                            display: inline-block;
-                            text-decoration: none;
-                            vertical-align: middle; 
-                            margin-top: 0px;
+                          .mattress-question-choices label {
+                            display: block;
+                            margin-left: 15%;
+                            vertical-align: middle;
+                            width:70%;  
+                            padding: 0;
+                            text-align: center;
                         }
                         .option {
                             display: block;
-                        }
-                        .mattress-question-choices label {
-                            display: block;
-                            margin: auto;
-                            width:90%;  
-                            float:left; 
-                            padding: 5px;
-                            margin-bottom: 20px;
-                            text-align: center;
+                            padding-bottom: 10px;
                         }
                         .mattress-question-choices img{
                             display: inline-block;
                             vertical-align: middle;
+                            margin-top: 40px;
+                            margin-bottom: 0;
                             padding-bottom: 0;
                             box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
                             transition: all 0.3s; 
                         }
                         .prevnextbutton {
+                            clear: both;
+                            display: block;
                             text-align: center;
                             margin: auto;
-                            padding-bottom: 10px;
+                            padding-left: 40px;
+                            margin-top: 0;
+                            margin-bottom: 10px;
                         }
                         .quest-button {
-                            height: 70px;
-                            border: 4px solid #fff;
+                            height: 50px;
+                            border-bottom: 8px solid #fff;
                             padding: 8px;
                             font-size: 1em;
                             background-color: #ccc;
                             float: left;
+                            box-shadow: none;
                         }
-                        }
-                        
-                         /*QUESTIONS
-                        Smart Phone mark up*/
-                @media only screen and (min-device-width: 320px)
-and (orientation: portrait),
-screen and (max-device-width: 480px) and
-(orientation: landscape){
-                        /*QUESTIONS and CHOICES*/
-                        
-                        
-                        
+                         }
+                         /*BUTTON Back to Survey - Generales*/
+                         .back-to-survey {
+                            line-height: 1.5em;
+                            text-decoration: none;
+                            color: #fff;
+                            text-align: center; 
+                            display: block; 
+                            padding: 15px; 
+                            font-size: 1.2em;
+                            background-color:#990000;
+                            color: #fff; 
+                            width: 250px; 
+                            margin-top: 20px; 
+                            margin-left: 30px;
+                            border-radius: 5px; 
+                            box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+                            text-decoration: none;
+                         }
+                         .back-to-survey:hover {
+                            background-color: #bb0000;
+                            color: #bbb; 
+                         }
+                         .back-to-survey a:visited {
+                             color: white; 
+                         }
+                         /* BUTON Back to Survey - Smart Phone-Portrait and Landscape */
+                        @media only screen 
+                         and (min-device-width: 375px) 
+                         and (max-device-width: 667px) 
+                         and (-webkit-min-device-pixel-ratio: 2) {
+                           .back-to-survey {
+                            line-height: 1.5em;
+                            text-decoration: none;
+                            color: #fff;
+                            text-align: center; 
+                            display: block; 
+                            padding: 15px; 
+                            font-size: 1.2em;
+                            background-color:#990000;
+                            color: #fff; 
+                            width: 200px; 
+                            margin: 20px auto; 
+                            border-radius: 5px; 
+                            box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+                            text-decoration: none;
+                         }
+                         .back-to-survey:hover {
+                            background-color: #bb0000;
+                            color: #bbb; 
+                         }
+                         .back-to-survey a:visited {
+                             color: white; 
+                         }  
+                         }
+                         
+/*PLACING ON TOP QUESTIONS SURVEY generals*/
+#topquestion1{ 
+    position: absolute; 
+    top:220px;
 }
-                        
+#topquestion2{ 
+    position: absolute; 
+    top:270px;
+}
+#topquestion3{ 
+    position: absolute; 
+    top:320px;
+}
+#topquestion4{ 
+    position: absolute; 
+    top:370px;
+}
+#topquestion5{ 
+    position: absolute; 
+    top:420px;
+}
+#topquestion6{ 
+    position: absolute; 
+    top:470px;
+}
+#topquestion7{ 
+    position: absolute; 
+    top:520px;
+}
+#topquestion8{ 
+    position: absolute; 
+    top:670px;
+}
+/*PLACING ON TOP QUESTIONS SURVEY for TABLETS*/
+@media screen and (max-width:740px){
+#topquestion1{ 
+    position: absolute; 
+    top:70px;
+}
+#topquestion2{ 
+    position: absolute; 
+    top:120px;
+}
+#topquestion3{ 
+    position: absolute; 
+    top:170px;
+}
+#topquestion4{ 
+    position: absolute; 
+    top:220px;
+}
+#topquestion5{ 
+    position: absolute; 
+    top:270px;
+}
+#topquestion6{ 
+    position: absolute; 
+    top:320px;
+}
+#topquestion7{ 
+    position: absolute; 
+    top:370px;
+}
+#topquestion8{ 
+    position: absolute; 
+    top:320px;
+} 
+}
+
+/*PLACING ON TOP QUESTIONS SURVEY for Phones -Portrait only*/
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+#topquestion1{ 
+    position: absolute; 
+    top:870px;
+}
+#topquestion2{ 
+    position: absolute; 
+    top:920px;
+}
+#topquestion3{ 
+    position: absolute; 
+    top:970px;
+}
+#topquestion4{ 
+    position: absolute; 
+    top:1020px;
+}
+#topquestion5{ 
+    position: absolute; 
+    top:1070px;
+}
+#topquestion6{ 
+    position: absolute; 
+    top:1120px;
+}
+#topquestion7{ 
+    position: absolute; 
+    top:1170px;
+}
+#topquestion8{ 
+    position: absolute; 
+    top:1220px;
+} 
+}
+/*PLACING ON TOP QUESTIONS SURVEY for Phones -Landscape only*/
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+#topquestion1{ 
+    position: absolute; 
+    top:700px;
+}
+#topquestion2{ 
+    position: absolute; 
+    top:680px;
+}
+#topquestion3{ 
+    position: absolute; 
+    top:670px;
+}
+#topquestion4{ 
+    position: absolute; 
+    top:650px;
+}
+#topquestion5{ 
+    position: absolute; 
+    top:630px;
+}
+#topquestion6{ 
+    position: absolute; 
+    top:610px;
+}
+#topquestion7{ 
+    position: absolute; 
+    top:590px;
+}
+#topquestion8{ 
+    position: absolute; 
+    top:570px;
+} 
+}
+
 /*TABLE W/ BLUE BUTTOMS front page*/
 table.responsive2 {
   width: 50%;
@@ -864,7 +1095,7 @@ tr td {
   padding-bottom: 30px;
   padding-left: 100px;
   padding-right: 100px;
-  width: 65%;
+  width: 60%;
   border-bottom: 2px #ccc solid;
   border-top: 2px #ccc solid;
 }
@@ -1036,7 +1267,6 @@ _________________________________*/
     display: block; 
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-right: 20px;
     height: 50px;
     width: 40%;
     border: 3px solid #006699;/*azul acero*/
@@ -1044,16 +1274,19 @@ _________________________________*/
 #confussion2 h3 {
     text-align: center;
     white-space: nowrap;
+    padding-left: 3%;
+    padding-right: 3%;
     color: #333; /*dark gray*/
-    font-size: 1.3em;
+    font-size: 110%;
     line-height: 10pt;
 }
 /*Tablet mark Up*/
-@media screen and (max-width:640px){
+@media screen and (max-width:1200px){
     #confussion2 {
     display: block;
-    width: 40%;
-    height: 40px;
+    text-align: center;
+    width: 80%;
+    height: 50px;
     border: 2px solid #006699;/*azul acero*/ 
     margin: auto;
 }
@@ -1063,8 +1296,11 @@ _________________________________*/
     font-size: 1.1em;
     white-space: nowrap;
     line-height: 30pt;
+    padding-left: 3%;
+    padding-right: 3%;
 }
-/*Phoone Mark Up*/
+}
+/*Phone Mark Up*/
    @media only screen and (min-device-width: 320px)
 and (orientation: portrait),
 screen and (max-device-width: 480px) and
@@ -1072,16 +1308,17 @@ screen and (max-device-width: 480px) and
 #confussion2 {
     display: block;
     text-align: center;
-    width: 80%;
+    width: 90%;
     height: 40px;
     border: 2px solid #006699;/*azul acero*/ 
-    margin: auto;
+    margin: 0 auto;
 }
 #confussion2 h3 {
     color: #333; /*dark gray*/
     margin: auto;  
     font-size: 1.1em;
     white-space: nowrap;
+    padding: auto;
     line-height: 30pt;
 }
 }
@@ -1145,18 +1382,20 @@ screen and (max-device-width: 480px) and
     font-weight: lighter;
     color: #003366; /*Dark blue*/
 }
-.articles-list{
+.articles-list .articles-list2 {
+    display: block;
     padding-top: 0;
-    padding-bottom: 0;
+    padding-bottom: 20px;
 }
-.articles-list a {
+.articles-list a .articles-list2 a{
    color: #003366; /*Dark blue*/
    text-decoration: none;
+   line-height: 1.5em;
 }
-.articles-list a ul{
+.articles-list a ul .articles-list2 a ul{
     list-style: circle;
 }
-.articles-list a ul li{
+.articles-list a ul li .articles-list2 a ul li{
     text-decoration: none;
 }
 .articles-list a:hover{
@@ -1170,12 +1409,14 @@ screen and (max-device-width: 480px) and
 }
 .articles-image {
     display: block;
-    padding: 15px;
+    padding: 30px 20px 0px 30px;
 }
 #article2-image {
     width: 450px;
     border: #fff 5px;
     padding: 10px;
+    margin-left: 30px;
+    margin-bottom: 30px;
     float: right;
      -webkit-box-shadow: 5px 6px 13px -2px rgba(0,0,0,0.66);
     -moz-box-shadow: 5px 6px 13px -2px rgba(0,0,0,0.66);
@@ -1192,12 +1433,236 @@ screen and (max-device-width: 480px) and
     line-height: 1.4em;
 }
 
+                                        /*FAQ and FACTS
+                                         _______________*/
+                                        .faq-main-body {
+                                            display: block;
+                                            margin-left: 110px;
+                                            padding-top: 5px;
+                                            padding-right: 30px;
+                                            padding-bottom: 50px;
+                                            width: 65%;
+                                            float: left;
+                                            font-family: Helvetica, Verdana, sans-serif;
+                                        }
+                                        
+                                        .FAQ-subtitle{
+                                            display: block;
+                                            background-color: #ddd;
+                                            padding-top: 15px;
+                                            padding-bottom: 10px;
+                                            padding-left: 15px;
+                                            border-top: solid #000 2px;
+                                        } 
+                                        .faq-image-block {
+                                            display: block;
+                                            padding: 0px 20px 10px 0px;
+                                        }
+                                        .faq-image1 {
+                                            display: block;
+                                            width: 200px;
+                                            border: #fff 5px;
+                                            padding: 10px;
+                                            margin-right: 20px;
+                                            margin-bottom: 20px;
+                                            float: left;
+                                            -webkit-box-shadow: 5px 6px 13px -2px rgba(0,0,0,0.66);
+                                             -moz-box-shadow: 5px 6px 13px -2px rgba(0,0,0,0.66);
+                                            box-shadow: 5px 6px 13px -2px rgba(0,0,0,0.66); 
+                                        }
+                                        .faq-image2 {
+                                            display: block;
+                                            width: 200px;
+                                            border: #fff 5px;
+                                            padding: 10px;
+                                            margin-left: 20px;
+                                            margin-bottom: 20px;
+                                            float: right;
+                                            -webkit-box-shadow: 5px 6px 13px -2px rgba(0,0,0,0.66);
+                                             -moz-box-shadow: 5px 6px 13px -2px rgba(0,0,0,0.66);
+                                            box-shadow: 5px 6px 13px -2px rgba(0,0,0,0.66); 
+                                        }
+                                        .faq-list a{
+                                            color: #003366; /*Dark blue*/
+                                            text-decoration: none;
+                                            line-height: 1.5em;
+                                        }
+                                         .faq-list a ul{
+                                            list-style: circle;
+                                        }
+                                         .faq-list a ul li .articles-list2 a ul li{
+                                            text-decoration: none;
+                                        }
+                                        .faq-list a:hover{
+                                            color: #990000;/*dark red*/
+                                        }
+                                        
+                                        /* FAQ & FACTS Smart Phone-Portrait and Landscape */
+                                    @media only screen 
+                                    and (min-device-width: 375px) 
+                                    and (max-device-width: 667px) 
+                                    and (-webkit-min-device-pixel-ratio: 2) {
+                                        .faq-main-body {
+                                            display: block;
+                                            margin-left: 5%;
+                                            padding-top: 5px;
+                                            padding-right: 5px;
+                                            padding-bottom: 10px;
+                                            width: 90%;
+                                            font-family: Helvetica, Verdana, sans-serif;
+                                        }
+                                        .FAQ-subtitle{
+                                            display: block;
+                                            background-color: #ddd;
+                                            padding-top: 15px;
+                                            padding-bottom: 10px;
+                                            padding-left: 15px;
+                                            border-top: solid #000 2px;
+                                        } 
+                                        .faq-image-block {
+                                            clear: both;
+                                            display: block;
+                                            background-color: #fff;
+                                            padding-top: 10px;
+                                            padding-bottom: 10px;
+                                            width: 90%;
+                                        }
+                                        .faq-image1 {
+                                            margin: auto;
+                                            display: block;
+                                            width: 100%;
+                                            margin-bottom: 20px;
+                                            border: #fff 5px;
+                                            -webkit-box-shadow: 5px 6px 13px -2px rgba(0,0,0,0.66);
+                                             -moz-box-shadow: 5px 6px 13px -2px rgba(0,0,0,0.66);
+                                            box-shadow: 5px 6px 13px -2px rgba(0,0,0,0.66);
+                                        }
+                                        .faq-image2{
+                                            margin: auto;
+                                            display: block;
+                                            width: 100%;
+                                            margin-bottom: 20px;
+                                            padding-left: 5%;
+                                            float: none;
+                                            border: #fff 5px;
+                                            -webkit-box-shadow: 5px 6px 13px -2px rgba(0,0,0,0.66);
+                                             -moz-box-shadow: 5px 6px 13px -2px rgba(0,0,0,0.66);
+                                            box-shadow: 5px 6px 13px -2px rgba(0,0,0,0.66);
+                                        }
+                                        .faq-list{
+                                            display: inline-block;
+                                            width: 100%;
+                                            background-color: #fff;
+                                            text-align: left;
+                                            padding-top: 5px;
+                                            padding-bottom: 15px;
+                                            margin-left: 0;
+                                        }
+                                        .faq-list ul {
+                                            margin-top: 15px;
+                                            zoom: 1;
+                                        }
+                                        .faq-list ul li{
+                                            text-align: left;
+                                            padding-left: 0;
+                                        }
+                                        }
+
+                                        
+                                        /*Choosing A Mattress Section
+                                        Back, Stomach or Side - Generals
+                                        __________________________*/
+                                        .choosing-mattress-image-block {
+                                            display: block;
+                                            width: 60%;
+                                            height: auto;
+                                            text-align: left;
+                                            padding-right: 5%;
+                                        }
+                                        #choosing-mattress-image {
+                                            width: 700px;
+                                            border: #fff 5px;
+                                             -webkit-box-shadow: 5px 6px 13px -2px rgba(0,0,0,0.66);
+                                             -moz-box-shadow: 5px 6px 13px -2px rgba(0,0,0,0.66);
+                                             box-shadow: 5px 6px 13px -2px rgba(0,0,0,0.66); 
+                                        }
+                                        
+                                        @media screen and (max-width:1400px) {
+                                            .choosing-mattress-image-block {
+                                                display: block;
+                                                width: 100%;
+                                                padding-bottom: 10px;
+                                            }
+                                            #choosing-mattress-image {
+                                                margin: auto;
+                                                border: #fff 7px;
+                                                padding: 5px;
+                                                margin-bottom: 15px;
+                                                -webkit-box-shadow: 5px 6px 13px -2px rgba(0,0,0,0.66);
+                                                -moz-box-shadow: 5px 6px 13px -2px rgba(0,0,0,0.66);
+                                                box-shadow: 5px 6px 13px -2px rgba(0,0,0,0.66); 
+                                        }
+                                        }
+                                        @media only screen and (min-device-width: 320px)
+                                        and (orientation: portrait),
+                                        screen and (max-device-width: 480px) and
+                                        (orientation: landscape){
+                                            .choosing-mattress-image-block {
+                                                display: block;
+                                                padding-bottom: 10px;
+                                            }
+                                            #choosing-mattress-image {
+                                                width: 100%;
+                                                margin: auto;
+                                                border: #fff 7px;
+                                                padding: 5px;
+                                                margin-bottom: 15px;
+                                                -webkit-box-shadow: 5px 6px 13px -2px rgba(0,0,0,0.66);
+                                                -moz-box-shadow: 5px 6px 13px -2px rgba(0,0,0,0.66);
+                                                box-shadow: 5px 6px 13px -2px rgba(0,0,0,0.66); 
+                                            }
+                                            }
+                                            .bottom-links {
+                                                clear: both;
+                                                display: block;
+                                                margin: auto;
+                                                text-align: center;
+                                                border-bottom: solid #bbb 1px;
+                                                border-top: solid #bbb 1px;
+                                                color: #003366;
+                                                margin-top: 40px;
+                                                font-size: 1.2em;
+                                                line-height: 2em;
+                                            }
+                                            .bottom-links a{
+                                                margin: auto;
+                                                text-align: center;
+                                            }
+                                             @media only screen and (min-device-width: 320px)
+                                        and (orientation: portrait),
+                                        screen and (max-device-width: 480px) and
+                                        (orientation: landscape){
+                                            .bottom-links {
+                                                clear: both;
+                                                display: block;
+                                                padding-left: 0;
+                                                text-align: center;
+                                                border-bottom: solid #bbb 1px;
+                                                border-top: solid #bbb 1px;
+                                                color: #003366;
+                                                margin-top: 30px;
+                                                font-size: 1.2em;
+                                                line-height: 2em;
+                                            }
+                                        }
+                                            
 /*MATTRESS SCHOOL pages*/
 #sharing {
     display: none;
 }
 .school-main-body {
     display: block;
+    background-color: #fff;
     margin-left: 110px;
     padding-top: 5px;
     padding-right: 30px;
@@ -1266,7 +1731,6 @@ screen and (max-device-width: 480px) and
 .letter { 
     position:relative; 
     display: block;
-    z-index: -1;
 }
 .letter span{
     position:absolute; 
@@ -1274,7 +1738,8 @@ screen and (max-device-width: 480px) and
 }
 
 
-/*CONTACT Form
+
+/*CONTACT Form -generals
 __________________*/
 .error {
     color: #FF0000;
@@ -1361,6 +1826,8 @@ input[type=submit] {
     border-radius: 5px; 
     box-shadow: 5px 5px 5px #eee;
 }
+/*CONTACT Form - Smart Phone
+__________________*/
    @media only screen and (min-device-width: 320px)
 and (orientation: portrait),
 screen and (max-device-width: 480px) and
@@ -1413,10 +1880,13 @@ screen and (max-device-width: 480px) and
     text-align: center;
 }
 
+/*BEFORE YOU BUY page*/
+.articles-main-body hr {
+    border: #ddd dashed 1px; /*light gray*/   
+}
 
-
-
-/*AUTHOR signature*/
+    
+/*AUTHOR signature - Generals*/
 .author{
     clear:both;
     display: block;
@@ -1444,6 +1914,7 @@ screen and (max-device-width: 480px) and
     text-decoration: none;
     color: #990000;
 }
+/*AUTHOR signature - Smart Phone*/
 @media only screen and (min-device-width: 320px)
 and (orientation: portrait),
 screen and (max-device-width: 480px) and
@@ -1474,7 +1945,16 @@ screen and (max-device-width: 480px) and
 }      
 }
 
-
+/*Only Print*/
+.website-address1 {
+  display: none;
+}
+.website-address2 {
+  display: none;
+}
+.website-address {
+  display: none;
+}
 
 /*SIDE*/
 #social {
@@ -1482,14 +1962,15 @@ screen and (max-device-width: 480px) and
   background-color: #fff;
   float: left;
   width: 15%;
-  text-align: left;
-  margin-top: 80px;
+  text-align: center;
+  margin-top: 70px;
   margin-left: 25px;
   padding-top: 0;
 }
 .share-texto{
     display: block;
-    text-align: left;
+    text-align: center;
+    margin: auto;
     color: #666;
     font-size: 1em;
 }
@@ -1497,9 +1978,29 @@ screen and (max-device-width: 480px) and
   width: 100%;
   border: 1px #999 solid;
 }
+.only-print button{
+    line-height: 1em;
+    text-decoration: none;
+    text-align: center; 
+    display: block; 
+    padding: 10px 5px; 
+    font-size: 1em;
+    background-color: #006699; 
+    color: #fff; 
+    width: 100px; 
+    margin: 5px auto; 
+    border-radius: 5px;
+}
+
+.addthis_inline_share_toolbox {
+    margin-top: 20px;
+    text-align: center;
+    margin: auto;
+}
+
 .side{
     display: block;
-    height: 600px;
+    height: 800px;
     border-top: #990000 solid 2px;
     text-align: left;
     margin-top: 10px;
@@ -1536,7 +2037,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dddddd', end
    padding-bottom: 40px;
    padding-right: 10px;
 }
-.fa{
+/*.fa{
   padding: 12px;
   width: 16px;
   text-align: center;
@@ -1587,7 +2088,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dddddd', end
   background: #fffc00;
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
+}*/
    @media only screen and (min-device-width: 320px)
 and (orientation: portrait),
 screen and (max-device-width: 480px) and
@@ -1665,6 +2166,44 @@ _______________________________*/
   margin-bottom: 50px;
   overflow: auto;
 }
+                                /*Article Main Page Botones - Generales*/
+                                .botones-article {
+                                    width: 90%;
+                                    margin: auto;
+                                    padding-bottom: 6px;
+                                    margin-bottom: 12px;
+                                    border-bottom: #003366 solid 2px;
+                                    border-top: #003366 solid 2px;
+                                    background-color: #fff;
+                                    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+                                    transition: all 0.3s;
+                                }
+                                .botones-article:hover{
+                                    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+                                }
+                                .boton-article-title{
+                                    text-align: left;
+                                    padding-top: 5px;
+                                    padding-bottom: 0px;
+                                    padding-left: 20px;
+                                    font-size: 1.1em;
+                                    color: #003366;
+                                }
+                                .boton-article-title a:hover, a:visited, a:link, a:active{
+                                    text-decoration: none;
+                                }
+                                .boton-article-begining {
+                                    color: #999;
+                                    font-size: 0.9;  
+                                    padding: 0;
+                                    margin-right: 20px;
+                                }
+                                .read {
+                                    color: #990000;
+                                    padding: 0;
+                                    margin: 0;
+                                }
+
 .botones {
   width: 25%;
   padding: 10px;
@@ -1701,7 +2240,8 @@ box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 {
     text-decoration: none;
 }
-/*___for Tablets & smartphones*/
+/*MATTRESS SCHOOL Page & Blocks
+___for Tablets & smartphones*/
 @media only screen and ( max-width: 40em)
 /* 540 */
 {
@@ -1749,6 +2289,63 @@ box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     text-decoration: none;
 }   
 }
+
+/*MATTRESS SCHOOL PAGE & BLOCKS
+_____NAVIGATION for Tablets & smartphones*/
+/* Smartphone mark up*/
+    @media only screen and (min-device-width: 320px)
+and (orientation: portrait),
+screen and (max-device-width: 480px) and
+(orientation: landscape)
+{
+  
+#school_page_topics{
+  text-align: center;
+  background: #ccc;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 30px;
+  overflow: auto;
+}
+.botones {
+  width: 80%;
+  padding: 12px;
+  background: #fff;
+  margin:5%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+  transition: all 0.3s; 
+  border-radius: 3px;
+}
+.botones:hover{
+box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+.boton{
+  display:block;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.boton_title {
+  margin: auto;
+  text-align: center;
+  padding: 10px 2px;
+  font-size: 1em;
+  /* 24 */
+  line-height: 1.1em;
+  /* 60 (24) */
+  text-align: center;
+  color: #003366;
+}
+.boton_title a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+}
+
+
+
 
 /*MATTRESS SCHOOL - MATTRESS SIZES Table
 ____________________________________*/
@@ -1805,17 +2402,32 @@ table.responsive td .data img {
      border-bottom: 3px #006699 solid;
      border-top: 3px #006699 solid;
 }
-
-@media screen and (max-width:640px) {
+      
+ @media only screen and (min-device-width: 320px)
+and (orientation: portrait),
+screen and (max-device-width: 480px) and
+(orientation: landscape){  
+ table.responsive {
+  width: 100%;
+}
+table.second {
+  margin-top: 0;
+  border-collapse: collapse;
+  border: none;
+}
   table.responsive thead {
-    display: none;
+     display: none;
   }
   table.responsive tbody th,
   table.responsive tbody td {
     display: block;
     border-right: none;
+    width: 100%;
+    text-align: center;
   }
-
+  tr {
+      border-bottom: 1px #ccc solid;
+  }
   table.responsive.first td span {
      display: block;
 }
@@ -1823,6 +2435,7 @@ table.responsive td .data img {
      background-color: #ddd;
      font-weight: bold;
      text-align: center;
+     height: 30px;
  }
 .vertical {
      display: block;
@@ -1834,7 +2447,6 @@ table.responsive.second th {
       margin-top: 0.5em;
 }
 td {
-     border-bottom: 1px #ccc solid;
      text-align: left;
      padding-left: 10px;
      height: auto;
@@ -1844,81 +2456,36 @@ table.responsive.second td:last-child {
      border-bottom: none;
 }
 table.responsive.second td .label {
-      display: inline-block;
+      display: none;
 }
 table.responsive.second td .data {
-      display: inline-block;
-      float: right;
+      display: block;
+      float: left;
+      width: 100%;
+      text-align: center;
+      border: none;
       font-weight: bold;
 }
 table.responsive.second td .data ul{
       display: block;
-      float: left;
+      width: 90%;
       text-align: left;
-      margin-left:10px;
+      border: none;
+      font-weight: bold;
+}
+table.responsive td .data img {
+  width: 100%;
+  text-align: center;
+  border-right: none;
+  padding: 0;
 }
 #bottom {
   text-align: center;
+  font-size: 0.5em;
   white-space: nowrap;
 }
 }
 
-
-
-
-/*MATTRESS SCHOOL PAGE & BLOCKS
-_____NAVIGATION for Tablets & smartphones*/
-/* Smartphone mark up*/
-    @media only screen and (min-device-width: 320px)
-and (orientation: portrait),
-screen and (max-device-width: 480px) and
-(orientation: landscape)
-{
-  
-#school_page_topics{
-  text-align: center;
-  background: #ccc;
-  width: 90%;
-  margin: auto;
-  margin-bottom: 30px;
-  overflow: auto;
-}
-.botones {
-  width: 80%;
-  padding: 12px;
-  background: #fff;
-  margin:5%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
-  transition: all 0.3s; 
-  border-radius: 3px;
-}
-.botones:hover{
-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  }
-.boton{
-  display:block;
-  width: 100%;
-  height: auto;
-  margin: auto;
-}
-.boton_title {
-  margin: auto;
-  text-align: center;
-  padding: 10px 2px;
-  font-size: 1.1em;
-  /* 24 */
-  line-height: 1.2em;
-  /* 60 (24) */
-  text-align: center;
-  color: #003366;
-}
-.boton_title a:hover, a:visited, a:link, a:active
-{
-    text-decoration: none;
-}
-}
 
 /*FOOTER*/
 #foot{
@@ -1937,12 +2504,26 @@ box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 #foot h4 {
     font-size: 130%;
+    padding-bottom: 0;
 }
 #web-creator {
     color: #000;
     font-size: 90%;
-    padding-top: 20px;
-}   
+    padding-top: 10px;
+} 
+#foot span {
+    font-size: 1em;
+    line-height: 1.2em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#foot a{
+    display: block;
+    padding-bottom:15px;
+    line-height: 1.2em;
+    text-decoration: none;
+    color: #000;
+}
 
 @media only screen and (min-device-width: 320px)
 and (orientation: portrait),
@@ -1976,7 +2557,32 @@ screen and (max-device-width: 480px) and
 }
 
 
-
+/* SITEMAP*/
+#site-map {
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.site-map-list {
+    display: block;
+    line-height: 1.6em;
+}
+@media only screen and (min-device-width: 320px)
+and (orientation: portrait),
+screen and (max-device-width: 480px) and
+(orientation: landscape){
+  #site-map {
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.site-map-list {
+    display: block;
+    line-height: 1.6em;
+}  
+}
 /* ___________________________
    Smartphone General mark up
 ______________________________*/
@@ -2012,7 +2618,8 @@ ______________________________*/
     position:relative; 
     display: block;
     z-index: -1;
-}   
+} 
+
 }
     
 
@@ -2020,7 +2627,6 @@ ______________________________*/
 and (orientation: portrait),
 screen and (max-device-width: 480px) and
 (orientation: landscape){
- 
 body {
     background-image: none; 
     max-width: 100%; /*evita el scroll a los lados*/
@@ -2229,10 +2835,11 @@ main {
 /*MATTRESS ARTICLES pages*/
 .articles-main-body {
     display: block;
-    margin-left: 5%;
+    padding-left: 5px;
     padding-top: 5px;
     padding-right: 5px;
     padding-bottom: 10px;
+    margin: auto;
     width: 90%;
     font-family: Helvetica, Verdana, sans-serif;
 }
@@ -2240,9 +2847,6 @@ main {
     font-size: 2em;
     font-weight: lighter;
     color: #003366; /*Dark blue*/
-}
-.articles-list{
-    display: none;
 }
 .articles-main-paragraph{
     font-size: 1.3em;
@@ -2252,14 +2856,16 @@ main {
 }
 .articles-image {
     display: block;
+    background-color: #fff;
+    width: 90%;
+    padding-left: 10px;
+    margin: auto;
     padding-bottom: 10px;
 }
 #article2-image {
-    width: 100%;
-    margin: auto;
-    border: #fff 5px;
-    padding: 5px;
-    margin-bottom: 15px;
+    display: block;
+    border: 7px #fff;
+    margin-bottom: 20px;
      -webkit-box-shadow: 5px 6px 13px -2px rgba(0,0,0,0.66);
     -moz-box-shadow: 5px 6px 13px -2px rgba(0,0,0,0.66);
     box-shadow: 5px 6px 13px -2px rgba(0,0,0,0.66); 
@@ -2270,6 +2876,7 @@ main {
     line-height: 14pt;
 }
 .articles-texto {
+    display: block;
     color: #666; /*gray*/
     font-size: 1.2em;
     font-weight: lighter;
@@ -2279,16 +2886,90 @@ main {
     color: #333; /*dark gray*/
     line-height: 1.4em;
 }
+.articles-list {
+    clear: both;
+    display: block;
+    background-color: #fff;
+    width: 100%;
+    margin-left: 30px;
+    padding-bottom: 15px;
+}
+.articles-list ul{
+    margin-top: 15px;
+    zoom: 1;
+}
+.articles-list ul li {
+    text-align: left;
+    padding-left: 0;
+}
+.articles-list2 {
+    clear: both;
+    display: block;
+    background-color: #fff;
+    width: 100%;
+    margin-left: 0px;
+    padding-bottom: 15px;
+}
+.articles-list2 ul{
+    margin-top: 15px;
+    zoom: 1;
+}
+.articles-list2 ul li {
+    text-align: left;
+    padding-left: 0;
+}
+.articles-list3 {
+    clear: both;
+    display: block;
+    background-color: #fff;
+    width: 100%;
+    margin-left: 30px;
+    padding-bottom: 15px;
+}
+.articles-list3 ul{
+    margin-top: 15px;
+    zoom: 1;
+}
+.articles-list3 ul li {
+    text-align: left;
+    padding-left: 0;
+}
+ /* Landscape */
+                    @media only screen 
+                     and (min-device-width: 375px) 
+                     and (max-device-width: 667px) 
+                     and (-webkit-min-device-pixel-ratio: 2)
+                     and (orientation: landscape) { 
+.articles-image {
+    display: block;
+    background-color: #fff;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    text-align: right;
+}
+#article2-image {
+    display: block;
+    width: 60%;
+    border: 7px #fff;
+    margin-bottom: 20px;
+     -webkit-box-shadow: 5px 6px 13px -2px rgba(0,0,0,0.66);
+    -moz-box-shadow: 5px 6px 13px -2px rgba(0,0,0,0.66);
+    box-shadow: 5px 6px 13px -2px rgba(0,0,0,0.66); 
+}
+                     }
+
+
+
 
 /*TOP*/
 .letter { 
     position:relative; 
     display: block;
-    z-index: -1;
 }
 .letter span{
     position:absolute; 
     top:-75px;
+     z-index: 4;
 }
 
 /*SIDE*/
@@ -2400,14 +3081,10 @@ main {
 }
 
 /*NAVIGATION for Tablets & smartphones*/
-@media only screen and ( min-device-width: 480px) 
-and (orientation:portrait),
-screen and (max-device-width: 640px) and
-(orientation: landscape)
-{
+@media screen and (max-width:640px){ 
 #article2-image {
     display: block;
-    width: 60%;
+    width: 100%;
     border: #fff 5px;
     padding: 5px;
      -webkit-box-shadow: 5px 6px 13px -2px rgba(0,0,0,0.66);
@@ -2415,8 +3092,6 @@ screen and (max-device-width: 640px) and
     box-shadow: 5px 6px 13px -2px rgba(0,0,0,0.66);
 }
 }
-
-
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
