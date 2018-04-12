@@ -1,8 +1,45 @@
-<section id="nav_main">
-  <nav id="nav" role="navigation">
-    <a href="#nav" title="Show navigation">Show navigation</a>
-    <a href="#" title="Hide navigation">Hide navigation</a>
-    <ul class="clearfix">
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <link rel="alternate" href="http://mattresszombie.com/index.php" hreflang="en-us" />
+        <meta charset="utf-8">
+        <meta name="description" content="There are three vital stages of sleep which our body cycles through each night which support important mental and physical functions that restore and maintain a healthy mind and body.">
+        <meta name="Keywords" content="Adjustable bases, Adjustable mattresses, Sleeping on your back, Sleeping on your side, Sleeping on your stomach, Spring coil mattresses, Foam mattresses, Gel mattresses, Memory foam mattresses, Hybrid mattresses, Snoring, Esophageal reflux, Sinus conditions, Tossing and turning, Back pain, Neck pain, Leg pain, Knee pain, Sleep apnea, Sleep deprivation, Rem, Deep sleep, Mattress choice, Firm mattress, Soft mattress, Plush mattress, Tufted mattress, Separate mattresses, Dual mattresses, Hospital bed, Sleep position, Sleep temperature, Sleeping warm Mattresszombie, all about mattresses, how to choose a mattress,  find the best mattress, mattress science, mattress education, mattress school, mattress info, learning mattress service, select best mattress for you, backache, lumbar pain, changing mattress, how to select the best mattress." /> 
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>
+            MattressZombie sitemap
+        </title>
+       <?php include $_SERVER ['DOCUMENT_ROOT'].'/modules/head.php';?>
+       
+   <script>
+	$( function()
+	{
+		$( '#nav li:has(ul)' ).doubleTapToGo();
+	});
+</script>
+        
+    </head>
+    <body>
+        <div id="fixed">
+           
+            <header>
+            <nav>
+            <?php include $_SERVER ['DOCUMENT_ROOT'].'/modules/mini_nav.php';?>
+            </nav>
+            <div>     
+            <?php include $_SERVER ['DOCUMENT_ROOT'].'/modules/header.php';?>
+            </div>
+        </header>
+        <nav>
+            <?php include $_SERVER ['DOCUMENT_ROOT'].'/modules/nav_main.php';?>
+        </nav>
+        </div>
+        <main>
+<section id="site-map">
+  
+    <ul class="site-map-list">
       <li><a href="/index.php">HOME</a></li>
       <li>
         <a href="/MattressSchool/mattress_school.php" aria-haspopup="true"><span>MATTRESS SCHOOL</span></a>
@@ -58,11 +95,10 @@
       <li><a href="/questions.php">FAQ</a></li>
       <li><a href="/contact.php">CONTACT US</a></li>
       
-     
     </ul>
-  </nav>
 </section>
-
-
-
- 
+</main>
+        <footer>
+             <?php include $_SERVER ['DOCUMENT_ROOT'].'/modules/footer.php';?>
+        </footer>
+    </body>
