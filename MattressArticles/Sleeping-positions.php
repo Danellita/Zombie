@@ -3,7 +3,7 @@
     <head>
         <link rel="alternate" href="http://mattresszombie.com/index.php" hreflang="en-us" />
         <meta charset="utf-8">
-        <meta name="description" content="Confusion = Huge Profits. This confusion is a devious plan within the mattress industry, with the intention of making huge profits from the consumer’s confusion.">
+        <meta name="description" content="Different sleeping positions require different degrees of mattress support and firmness. Explore how.">
         <meta name="Keywords" content="Adjustable bases, Adjustable mattresses, Sleeping on your back, Sleeping on your side, Sleeping on your stomach, Spring coil mattresses, Foam mattresses, Gel mattresses, Memory foam mattresses, Hybrid mattresses, Snoring, Esophageal reflux, Sinus conditions, Tossing and turning, Back pain, Neck pain, Leg pain, Knee pain, Sleep apnea, Sleep deprivation, Rem, Deep sleep, Mattress choice, Firm mattress, Soft mattress, Plush mattress, Tufted mattress, Separate mattresses, Dual mattresses, Hospital bed, Sleep position, Sleep temperature, Sleeping warm Mattresszombie, all about mattresses, how to choose a mattress,  find the best mattress, mattress science, mattress education, mattress school, mattress info, learning mattress service, select best mattress for you, backache, lumbar pain, changing mattress, how to select the best mattress." /> 
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,28 +11,27 @@
         <!--MarkUp for Twitter-->
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@mattresszombie" />
-        <meta name="twitter:image" content="http://www.mattresszombie.com/images/Articles-Mattress-business.jpg" />      
-        <meta property="og:url" content="http://www.mattresszombie.com/MattressArticles/The-huge-business-of-mattress.php" />
-        <meta property="og:title" content="The Huge Business of Mattress" />
-        <meta property="og:description" content="Confusion = Huge Profits. This confusion is a devious plan within the mattress industry, with the intention of making huge profits from the consumer’s confusion." />
-        <meta property="og:image" content="http://www.mattresszombie.com/images/Articles-Mattress-business.jpg" />
+        <meta name="twitter:image" content="http://www.mattresszombie.com/images/Articles-Mattress-and-sleeping-positions.jpg" />      
+        <meta property="og:url" content="http://www.mattresszombie.com/MattressArticles/Sleeping-positions.php" />
+        <meta property="og:title" content="Sleeping Positions" />
+        <meta property="og:description" content="Different sleeping positions require different degrees of mattress support and firmness. Explore how." />
+        <meta property="og:image" content="http://www.mattresszombie.com/images/Articles-Mattress-and-sleeping-positions.jpg" />
             
         <!--MarkUp for Facebook-->
-        <meta property="og:url"                content="http://www.mattresszombie.com/MattressArticles/The-huge-business-of-mattress.php" />
+        <meta property="og:url"                content="http://www.mattresszombie.com/MattressArticles/Sleeping-positions.php" />
         <meta property="og:type"               content="article" />
-        <meta property="og:title"              content="The Huge Business of Mattress" />
-        <meta property="og:description"        content="Confusion = Huge Profits. This confusion is a devious plan within the mattress industry, with the intention of making huge profits from the consumer’s confusion." />
-        <meta property="og:image"              content="http://www.mattresszombie.com/images/Articles-Mattress-business.jpg" />
+        <meta property="og:title"              content="Sleeping Positions" />
+        <meta property="og:description"        content="Different sleeping positions require different degrees of mattress support and firmness. Explore how." />
+        <meta property="og:image"              content="http://www.mattresszombie.com/images/Articles-Mattress-and-sleeping-positions.jpg" />
         
         <!--MarkUp for Google Plus-->
         <meta property="og:type" content="article" />
-        <meta itemprop="og:headline" content="The Huge Business of Mattress" />
-        <meta itemprop="og:description" content="Confusion = Huge Profits. This confusion is a devious plan within the mattress industry, with the intention of making huge profits from the consumer’s confusion." />
-        <meta property="og:image" content="http://www.mattresszombie.com/images/Articles-Mattress-business.jpg" />
-        
+        <meta itemprop="og:headline" content="Sleeping Positions" />
+        <meta itemprop="og:description" content="Different sleeping positions require different degrees of mattress support and firmness. Explore how." />
+        <meta property="og:image" content="http://www.mattresszombie.com/images/Articles-Mattress-and-sleeping-positions.jpg" />
         
         <title>
-            Mattress Business
+            Sleeping Positions
         </title>
        <?php include $_SERVER ['DOCUMENT_ROOT'].'/modules/head.php';?>
         
@@ -44,11 +43,9 @@
 		$( '#nav li:has(ul)' ).doubleTapToGo();
 	});
 </script>
-
 <!-- Go to www.addthis.com/dashboard to customize your tools --> 
         <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a5fddd4c0734266">
         </script>
-        
         
     </head>
     <body>
@@ -72,7 +69,7 @@
                      <ul class="breadcrumb-ul">
                          <li class="breadcrumb-item"><a href="http://mattresszombie.com" title="Home">Home ></a></li>
                          <li class="breadcrumb-item"><a href="http://mattresszombie.com/MattressArticles/mattress_articles.php/">Mattress Articles ></a></li>
-                         <li class="breadcrumb-item">The Huge Business of Mattress</li>
+                         <li class="breadcrumb-item">Sleeping Positions</li>
                      </ul>		
                 </div>
             
@@ -90,7 +87,7 @@
             <!-- ARTICLE -->
             
             <div class="school-main-body">
-                <h1 class='school-title'>The Huge Business of Mattress</h1>
+                <h1 class='school-title'>Sleeping Positions</h1>
                 <!--
                 <div class="author">
 			<ul>
@@ -100,32 +97,27 @@
                         </ul>
                 </div>
                 -->
-                <p class='school-main-paragraph'>Buying a mattress is one of the most important decisions and investments for your personal well-being. Let's make an informed intelligent choice.</p>
+                <p class='school-main-paragraph'>The goal is to achieve perfect spinal alignment with no pressure points. </p>
                 
                 <div class='articles-image'>
-                    <img id='article2-image' src="/images/Articles-Mattress-business.jpg" alt='the huge mattress business'>
+                    <img id='article2-image' src="/images/Articles-Mattress-and-sleeping-positions.jpg" alt='sleeping positions'>
                 </div>
-                <p class='school-texto' style="display: block;">The mattress industry’s terminology and rhetoric can be confusing. Mattress retailer, department store, wholesale clubs, on-line, and the unthinkable --- an
-                    electronics store? Claims are the same. They all seem to have the best mattress at the best price with the best “stuff” inside of them. This confusion is a devious plan within the mattress industry, with the intention of making huge profits from the consumer’s confusion.</p> 
+                <p class='school-texto' style="display: block;">Different sleeping positions require different degrees of mattress support and firmness. A stomach sleeper generally needs a firmer mattress. The degree of firmness depends on body weight. With the heaviest part of the body being the central or hip area, good support is needed here to prevent a concave position, where the hips are lower than the head and feet. This causes tremendous stress on the lower back.</p> 
                 
-                <br>
+                <p class='articles-texto'>A side sleeper requires a slightly softer mattress or mattress top (pillow top) to accept the impression of the shoulder and hip. In this position, the body is resting on the ankle, knee, hip and shoulder. There are no major muscle groups in the first 3 locations, thus putting most of the burden of weight on the shoulder muscle. A too firm mattress can lead to excessive stress on the joint causing stress, pain and lack of circulation, resulting in tingling and numbness in the arm, hands and fingers. A too firm mattress can cause pain on this pressure point by not providing enough pushback on the surrounding areas. A too soft mattress will allow the hips to sink, causing an un-alignment of the spine, which will cause back and neck pain.</p>
+                <p class='articles-texto'>A back sleeper has the most leeway, and may choose any mattress type that comfortably supports body weight and shape. The proper mattress fit supports the neck and shoulders, the lumbar and behind the knees. The body should come in contact with the mattress from head to toe.</p>
+                <p class='articles-texto'>More information on the following links:</p>
                 
-                <div id="confussion2">
-                    <h3>CONFUSION = HUGE PROFITS</h3>
-                </div>
-                
-                <br>
-                
-                <p class='articles-texto'>Manufactures offer the latest scientific breakthrough with exclusive materials and specifications. Well, guess what? Everyone is exclusive because the same properties are called by different names. For example, manufacturers patent names as “air cool memory foam” or “cooling memory foam” or “cooling gel memory foam”. And let’s not forget the coil counts! Let’s add those up. Who is the winner? Certainly not the consumer. </p>
-                <p class='articles-texto'>You spend one third of your life in bed with the purpose of recharging. Each day is only as successful as the previous night's sleep. Choosing the right mattress is the most important decision and investment for your personal well-being, and it must be an informed and intelligent decision.</p>
-                <p class='articles-texto'>Let’s begin!</p>
-                <p class='articles-texto'>Please click on the following link:</p>
-                
-                <a id="mattress_school_link" href="/MattressSchool/mattress_school.php" title="Mattress School" rel="mattress school">MATTRESS SCHOOL</a>
+                <ul>
+                    <li><a id="mattress_school_link" href="/ChoosingAMattress/mattress-when-sleeping-on-your-back.php" title="Sleeping on your Back" rel="sleeping positions">When Sleeping on Your Back</a></li>
+                    <li><a id="mattress_school_link" href="/ChoosingAMattress/mattress-when-sleeping-on-your-side.php" title="Sleeping on your Side" rel="sleeping positions">When Sleeping on Your Side</a></li>
+                    <li><a id="mattress_school_link" href="/ChoosingAMattress/mattress-when-sleeping-on-your-stomach.php" title="Sleeping on your Stomach" rel="sleeping positions">When Sleeping on Your Stomach</a></li>
+                    <li><a id="mattress_school_link" href="/ChoosingAMattress/adjustable-bases.php" title="adjustable bases" rel="sleeping positions">Adjustable Bases</a></li>
+                </ul>
                 
                 <div class="bottom-links">
               <a href="/MattressArticles/mattress_articles.php">READ MORE MATTRESS ARTICLES</a>
-                </div>
+                </div>  
                 
                 </div>
             

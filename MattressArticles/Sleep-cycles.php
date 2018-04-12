@@ -3,7 +3,7 @@
     <head>
         <link rel="alternate" href="http://mattresszombie.com/index.php" hreflang="en-us" />
         <meta charset="utf-8">
-        <meta name="description" content="Confusion = Huge Profits. This confusion is a devious plan within the mattress industry, with the intention of making huge profits from the consumer’s confusion.">
+        <meta name="description" content="There are three vital stages of sleep which our body cycles through each night which support important mental and physical functions that restore and maintain a healthy mind and body.">
         <meta name="Keywords" content="Adjustable bases, Adjustable mattresses, Sleeping on your back, Sleeping on your side, Sleeping on your stomach, Spring coil mattresses, Foam mattresses, Gel mattresses, Memory foam mattresses, Hybrid mattresses, Snoring, Esophageal reflux, Sinus conditions, Tossing and turning, Back pain, Neck pain, Leg pain, Knee pain, Sleep apnea, Sleep deprivation, Rem, Deep sleep, Mattress choice, Firm mattress, Soft mattress, Plush mattress, Tufted mattress, Separate mattresses, Dual mattresses, Hospital bed, Sleep position, Sleep temperature, Sleeping warm Mattresszombie, all about mattresses, how to choose a mattress,  find the best mattress, mattress science, mattress education, mattress school, mattress info, learning mattress service, select best mattress for you, backache, lumbar pain, changing mattress, how to select the best mattress." /> 
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,44 +11,43 @@
         <!--MarkUp for Twitter-->
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@mattresszombie" />
-        <meta name="twitter:image" content="http://www.mattresszombie.com/images/Articles-Mattress-business.jpg" />      
-        <meta property="og:url" content="http://www.mattresszombie.com/MattressArticles/The-huge-business-of-mattress.php" />
-        <meta property="og:title" content="The Huge Business of Mattress" />
-        <meta property="og:description" content="Confusion = Huge Profits. This confusion is a devious plan within the mattress industry, with the intention of making huge profits from the consumer’s confusion." />
-        <meta property="og:image" content="http://www.mattresszombie.com/images/Articles-Mattress-business.jpg" />
+        <meta name="twitter:image" content="http://www.mattresszombie.com/images/Articles-Sleep-Facts.jpg" />      
+        <meta property="og:url" content="http://www.mattresszombie.com/MattressArticles/Sleep-cycles.php" />
+        <meta property="og:title" content="Sleep Cycles" />
+        <meta property="og:description" content="There are three vital stages of sleep which our body cycles through each night which support important mental and physical functions that restore and maintain a healthy mind and body." />
+        <meta property="og:image" content="http://www.mattresszombie.com/images/Articles-Sleep-Facts.jpg" />
             
         <!--MarkUp for Facebook-->
-        <meta property="og:url"                content="http://www.mattresszombie.com/MattressArticles/The-huge-business-of-mattress.php" />
+        <meta property="og:url"                content="http://www.mattresszombie.com/MattressArticles/Sleep-cycles.php" />
         <meta property="og:type"               content="article" />
-        <meta property="og:title"              content="The Huge Business of Mattress" />
-        <meta property="og:description"        content="Confusion = Huge Profits. This confusion is a devious plan within the mattress industry, with the intention of making huge profits from the consumer’s confusion." />
-        <meta property="og:image"              content="http://www.mattresszombie.com/images/Articles-Mattress-business.jpg" />
+        <meta property="og:title"              content="Sleep Cycles" />
+        <meta property="og:description"        content="There are three vital stages of sleep which our body cycles through each night which support important mental and physical functions that restore and maintain a healthy mind and body." />
+        <meta property="og:image"              content="http://www.mattresszombie.com/images/Articles-Sleep-Facts.jpg" />
         
         <!--MarkUp for Google Plus-->
         <meta property="og:type" content="article" />
-        <meta itemprop="og:headline" content="The Huge Business of Mattress" />
-        <meta itemprop="og:description" content="Confusion = Huge Profits. This confusion is a devious plan within the mattress industry, with the intention of making huge profits from the consumer’s confusion." />
-        <meta property="og:image" content="http://www.mattresszombie.com/images/Articles-Mattress-business.jpg" />
+        <meta itemprop="og:headline" content="Sleep Cycles" />
+        <meta itemprop="og:description" content="There are three vital stages of sleep which our body cycles through each night which support important mental and physical functions that restore and maintain a healthy mind and body." />
+        <meta property="og:image" content="http://www.mattresszombie.com/images/Articles-Sleep-Facts.jpg" />
         
         
         <title>
-            Mattress Business
+            Sleep Cycles
         </title>
        <?php include $_SERVER ['DOCUMENT_ROOT'].'/modules/head.php';?>
         
-       <link type="text/css" rel="stylesheet" href="/CCS/mattress_zombie_print2.css" media="print">
- 
+        <link type="text/css" rel="stylesheet" href="/CCS/mattress_zombie_print2.css" media="print">
+
    <script>
 	$( function()
 	{
 		$( '#nav li:has(ul)' ).doubleTapToGo();
 	});
 </script>
-
+   
 <!-- Go to www.addthis.com/dashboard to customize your tools --> 
         <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a5fddd4c0734266">
         </script>
-        
         
     </head>
     <body>
@@ -72,7 +71,7 @@
                      <ul class="breadcrumb-ul">
                          <li class="breadcrumb-item"><a href="http://mattresszombie.com" title="Home">Home ></a></li>
                          <li class="breadcrumb-item"><a href="http://mattresszombie.com/MattressArticles/mattress_articles.php/">Mattress Articles ></a></li>
-                         <li class="breadcrumb-item">The Huge Business of Mattress</li>
+                         <li class="breadcrumb-item">Sleep Cycles</li>
                      </ul>		
                 </div>
             
@@ -90,46 +89,44 @@
             <!-- ARTICLE -->
             
             <div class="school-main-body">
-                <h1 class='school-title'>The Huge Business of Mattress</h1>
+                <h1 class='articles-title'>Sleep Cycles</h1>
                 <!--
                 <div class="author">
 			<ul>
-                            <li>07/18/2017</li>
+                            <li>08/09/2017</li>
                             <li>|</li>
                             <li><a href="http://www.mattresszombie.com/authors.php" title="Posts by Sunil Chopra" rel="mattress expert">SUNIL CHOPRA</a></li>
                         </ul>
                 </div>
                 -->
-                <p class='school-main-paragraph'>Buying a mattress is one of the most important decisions and investments for your personal well-being. Let's make an informed intelligent choice.</p>
+                <p class='school-main-paragraph'>Feeling drowsy during the day, sleep deprivation can noticeably affect people’s performance, including their ability to think clearly, react quickly, and form memories.</p>
+             
                 
                 <div class='articles-image'>
-                    <img id='article2-image' src="/images/Articles-Mattress-business.jpg" alt='the huge mattress business'>
+                    <img id='article2-image' src="/images/Articles-Sleep-Facts.jpg" alt='sleeping facts on a mattress'>
                 </div>
-                <p class='school-texto' style="display: block;">The mattress industry’s terminology and rhetoric can be confusing. Mattress retailer, department store, wholesale clubs, on-line, and the unthinkable --- an
-                    electronics store? Claims are the same. They all seem to have the best mattress at the best price with the best “stuff” inside of them. This confusion is a devious plan within the mattress industry, with the intention of making huge profits from the consumer’s confusion.</p> 
+                <p class='articles-texto'>There are three vital stages of sleep which our body cycles through each night, sometimes several times per night. These stages and cycles support important mental and physical functions which restore and maintain a healthy mind and body, helping us process memory, emotion and information. When we spend the proper amount of time in each stage, we wake feeling refreshed and energized.</p>
+                <p class='articles-texto'>Let's review these stages:</p>
                 
-                <br>
+                <h3 class='articles-subtitle'>Light Sleep</h3>
+                        <p class='articles-texto'>In this first stage, our bodies relax, our muscles start to loosen up, and our breathing expands.</p>
                 
-                <div id="confussion2">
-                    <h3>CONFUSION = HUGE PROFITS</h3>
-                </div>
+                        
+                <h3 class='articles-subtitle'>Deep Sleep</h3>
+                        <p class='articles-texto'>In this second stage, everything slows down so our body (muscles, tissues, organs) and immune system can focus on restoring and recharging.</p>
                 
-                <br>
+                <h3 class='articles-subtitle' >REM Sleep (Rapid Eye Movement Sleep)</h3>
+                        <p class='articles-texto'>This third stage is where we dream.  While we dream, we simultaneously process and store information, making this stage critical for learning and memory. Our brains are active in REM, balancing a dreamy state with absorbing information we've been exposed to throughout the day.</p>
+                        <p class='articles-texto'>This is a powerful stage, hence the expression of wanting to “sleep on it” before making an important decision. It also balances our mood. REM makes up about 25% of our sleep cycle and first occurs 70 to 90 minutes after you fall asleep. Signals are sent to the brain’s cerebral cortex, which is responsible for learning, thinking, and organizing information. Signals are also sent to the spinal cord to shut off movement, creating a temporary inability to move the muscles (“paralysis”) in the arms and legs. Lack of REM sleep has also been linked to certain health conditions, including migraines and irritability.</p>
                 
-                <p class='articles-texto'>Manufactures offer the latest scientific breakthrough with exclusive materials and specifications. Well, guess what? Everyone is exclusive because the same properties are called by different names. For example, manufacturers patent names as “air cool memory foam” or “cooling memory foam” or “cooling gel memory foam”. And let’s not forget the coil counts! Let’s add those up. Who is the winner? Certainly not the consumer. </p>
-                <p class='articles-texto'>You spend one third of your life in bed with the purpose of recharging. Each day is only as successful as the previous night's sleep. Choosing the right mattress is the most important decision and investment for your personal well-being, and it must be an informed and intelligent decision.</p>
-                <p class='articles-texto'>Let’s begin!</p>
-                <p class='articles-texto'>Please click on the following link:</p>
-                
-                <a id="mattress_school_link" href="/MattressSchool/mattress_school.php" title="Mattress School" rel="mattress school">MATTRESS SCHOOL</a>
                 
                 <div class="bottom-links">
               <a href="/MattressArticles/mattress_articles.php">READ MORE MATTRESS ARTICLES</a>
                 </div>
-                
+                 
                 </div>
             
-            <script>  
+             <script>  
             function printResults() {
                             window.print();
 			}

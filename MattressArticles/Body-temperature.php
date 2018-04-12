@@ -3,7 +3,7 @@
     <head>
         <link rel="alternate" href="http://mattresszombie.com/index.php" hreflang="en-us" />
         <meta charset="utf-8">
-        <meta name="description" content="Confusion = Huge Profits. This confusion is a devious plan within the mattress industry, with the intention of making huge profits from the consumer’s confusion.">
+        <meta name="description" content="Fluctuation of body temperature affects our ability to stay asleep. Your internal body clock regulates many functions of the body including heart rate, blood pressure, hormone release, and body temperature; all which act together to help you stay awake during the day, and sleep at night.">
         <meta name="Keywords" content="Adjustable bases, Adjustable mattresses, Sleeping on your back, Sleeping on your side, Sleeping on your stomach, Spring coil mattresses, Foam mattresses, Gel mattresses, Memory foam mattresses, Hybrid mattresses, Snoring, Esophageal reflux, Sinus conditions, Tossing and turning, Back pain, Neck pain, Leg pain, Knee pain, Sleep apnea, Sleep deprivation, Rem, Deep sleep, Mattress choice, Firm mattress, Soft mattress, Plush mattress, Tufted mattress, Separate mattresses, Dual mattresses, Hospital bed, Sleep position, Sleep temperature, Sleeping warm Mattresszombie, all about mattresses, how to choose a mattress,  find the best mattress, mattress science, mattress education, mattress school, mattress info, learning mattress service, select best mattress for you, backache, lumbar pain, changing mattress, how to select the best mattress." /> 
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,33 +11,32 @@
         <!--MarkUp for Twitter-->
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@mattresszombie" />
-        <meta name="twitter:image" content="http://www.mattresszombie.com/images/Articles-Mattress-business.jpg" />      
-        <meta property="og:url" content="http://www.mattresszombie.com/MattressArticles/The-huge-business-of-mattress.php" />
-        <meta property="og:title" content="The Huge Business of Mattress" />
-        <meta property="og:description" content="Confusion = Huge Profits. This confusion is a devious plan within the mattress industry, with the intention of making huge profits from the consumer’s confusion." />
-        <meta property="og:image" content="http://www.mattresszombie.com/images/Articles-Mattress-business.jpg" />
+        <meta name="twitter:image" content="http://www.mattresszombie.com/images/Articles-Mattress-and-body-temperature.jpg" />      
+        <meta property="og:url" content="http://www.mattresszombie.com/MattressArticles/Body-temperature.php" />
+        <meta property="og:title" content="Body Temperature" />
+        <meta property="og:description" content="Fluctuation of body temperature affects our ability to stay asleep. Your internal body clock regulates many functions of the body including heart rate, blood pressure, hormone release, and body temperature; all which act together to help you stay awake during the day, and sleep at night." />
+        <meta property="og:image" content="http://www.mattresszombie.com/images/Articles-Mattress-and-body-temperature.jpg" />
             
         <!--MarkUp for Facebook-->
-        <meta property="og:url"                content="http://www.mattresszombie.com/MattressArticles/The-huge-business-of-mattress.php" />
+        <meta property="og:url"                content="http://www.mattresszombie.com/MattressArticles/Body-temperature.php" />
         <meta property="og:type"               content="article" />
-        <meta property="og:title"              content="The Huge Business of Mattress" />
-        <meta property="og:description"        content="Confusion = Huge Profits. This confusion is a devious plan within the mattress industry, with the intention of making huge profits from the consumer’s confusion." />
-        <meta property="og:image"              content="http://www.mattresszombie.com/images/Articles-Mattress-business.jpg" />
+        <meta property="og:title"              content="Body Temperature" />
+        <meta property="og:description"        content="Fluctuation of body temperature affects our ability to stay asleep. Your internal body clock regulates many functions of the body including heart rate, blood pressure, hormone release, and body temperature; all which act together to help you stay awake during the day, and sleep at night." />
+        <meta property="og:image"              content="http://www.mattresszombie.com/images/Articles-Mattress-and-body-temperature.jpg" />
         
         <!--MarkUp for Google Plus-->
         <meta property="og:type" content="article" />
-        <meta itemprop="og:headline" content="The Huge Business of Mattress" />
-        <meta itemprop="og:description" content="Confusion = Huge Profits. This confusion is a devious plan within the mattress industry, with the intention of making huge profits from the consumer’s confusion." />
-        <meta property="og:image" content="http://www.mattresszombie.com/images/Articles-Mattress-business.jpg" />
-        
+        <meta itemprop="og:headline" content="Body Temperature" />
+        <meta itemprop="og:description" content="Fluctuation of body temperature affects our ability to stay asleep. Your internal body clock regulates many functions of the body including heart rate, blood pressure, hormone release, and body temperature; all which act together to help you stay awake during the day, and sleep at night." />
+        <meta property="og:image" content="http://www.mattresszombie.com/images/Articles-Mattress-and-body-temperature.jpg" />
         
         <title>
-            Mattress Business
+            Body Temperature
         </title>
        <?php include $_SERVER ['DOCUMENT_ROOT'].'/modules/head.php';?>
         
-       <link type="text/css" rel="stylesheet" href="/CCS/mattress_zombie_print2.css" media="print">
- 
+        <link type="text/css" rel="stylesheet" href="/CCS/mattress_zombie_print2.css" media="print">
+
    <script>
 	$( function()
 	{
@@ -48,7 +47,6 @@
 <!-- Go to www.addthis.com/dashboard to customize your tools --> 
         <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a5fddd4c0734266">
         </script>
-        
         
     </head>
     <body>
@@ -72,7 +70,7 @@
                      <ul class="breadcrumb-ul">
                          <li class="breadcrumb-item"><a href="http://mattresszombie.com" title="Home">Home ></a></li>
                          <li class="breadcrumb-item"><a href="http://mattresszombie.com/MattressArticles/mattress_articles.php/">Mattress Articles ></a></li>
-                         <li class="breadcrumb-item">The Huge Business of Mattress</li>
+                         <li class="breadcrumb-item">Body Temperature</li>
                      </ul>		
                 </div>
             
@@ -80,7 +78,7 @@
            <div id="sharing">
                 <a href='#social'><p>Share this article!</p><img src="/images/share_article_web.png"></a>
             </div>
-            
+             
              <!--SOLO PARA PRINT Page-Header-->
              <div class="website-address1">
                  <img src="/images/LogoIdeas9_web.png" alt="Mattress Zombie">
@@ -90,7 +88,7 @@
             <!-- ARTICLE -->
             
             <div class="school-main-body">
-                <h1 class='school-title'>The Huge Business of Mattress</h1>
+                <h1 class='school-title'>Body Temperature</h1>
                 <!--
                 <div class="author">
 			<ul>
@@ -100,28 +98,16 @@
                         </ul>
                 </div>
                 -->
-                <p class='school-main-paragraph'>Buying a mattress is one of the most important decisions and investments for your personal well-being. Let's make an informed intelligent choice.</p>
+                <p class='school-main-paragraph'>Fluctuation of body temperature affects our ability to stay asleep.</p>
                 
                 <div class='articles-image'>
-                    <img id='article2-image' src="/images/Articles-Mattress-business.jpg" alt='the huge mattress business'>
+                    <img id='article2-image' src="/images/Articles-Mattress-and-body-temperature.jpg" alt='Mattress and body temperature'>
                 </div>
-                <p class='school-texto' style="display: block;">The mattress industry’s terminology and rhetoric can be confusing. Mattress retailer, department store, wholesale clubs, on-line, and the unthinkable --- an
-                    electronics store? Claims are the same. They all seem to have the best mattress at the best price with the best “stuff” inside of them. This confusion is a devious plan within the mattress industry, with the intention of making huge profits from the consumer’s confusion.</p> 
-                
-                <br>
-                
-                <div id="confussion2">
-                    <h3>CONFUSION = HUGE PROFITS</h3>
-                </div>
-                
-                <br>
-                
-                <p class='articles-texto'>Manufactures offer the latest scientific breakthrough with exclusive materials and specifications. Well, guess what? Everyone is exclusive because the same properties are called by different names. For example, manufacturers patent names as “air cool memory foam” or “cooling memory foam” or “cooling gel memory foam”. And let’s not forget the coil counts! Let’s add those up. Who is the winner? Certainly not the consumer. </p>
-                <p class='articles-texto'>You spend one third of your life in bed with the purpose of recharging. Each day is only as successful as the previous night's sleep. Choosing the right mattress is the most important decision and investment for your personal well-being, and it must be an informed and intelligent decision.</p>
-                <p class='articles-texto'>Let’s begin!</p>
-                <p class='articles-texto'>Please click on the following link:</p>
-                
-                <a id="mattress_school_link" href="/MattressSchool/mattress_school.php" title="Mattress School" rel="mattress school">MATTRESS SCHOOL</a>
+                <p class='articles-texto'>Most experts agree that core body temperature has a lot to do with how well you sleep. Your circadian rhythm (internal body clock) regulates many functions of the body including heart rate, blood pressure, hormone release, and body temperature; all which act together to help you stay awake during the day, and sleep at night.</p>
+                <p class='articles-texto'>Body temperature starts to fall as bedtime approaches, paving the way for a good night's sleep. Your body also tends to lose heat, which helps you fall and stay asleep. ... Your temperature starts to rise toward morning, preparing your body for wakefulness.</p>
+                <p class='articles-texto'>If you’re prone to waking up sweat-drenched (or shivering) in the middle of the night, then you know how important it is to find your temperature sweet spot for sleep.</p>
+                <p class='articles-texto'>But that midnight chill isn’t necessarily a reason to pile on the blankets. Falling temperatures cue the onset of sleep, and may even help you sleep more soundly. In fact, wearing special clothing that lowers skin temperature by one degree Celsius can reduce middle-of-the-night arousals and early morning waking.</p>
+                <p class='articles-texto'>New mattress technology offers us options in helping to regulate our body temperature, with the goal of keeping the body consistent throughout the night. A cooling mattress cover can keep you at the desired body temperature. It will coax you to sleep by cooling you down and keeping you cool, so as to enter deep and REM sleep, and keep you asleep longer.</p>
                 
                 <div class="bottom-links">
               <a href="/MattressArticles/mattress_articles.php">READ MORE MATTRESS ARTICLES</a>
@@ -129,7 +115,7 @@
                 
                 </div>
             
-            <script>  
+             <script>  
             function printResults() {
                             window.print();
 			}
